@@ -32,7 +32,8 @@ html {
   font-size: 1.5rem;
   padding: 1rem 0.5rem;
   transition: all 0.07s ease;
-  min-width: 5rem;
+  width: 8rem;
+  min-width: 6rem;
   text-align: center;
   color: white;
   background: #bf754456;
@@ -56,5 +57,31 @@ kbd {
   text-transform: uppercase;
   letter-spacing: 0.1rem;
   color: #bf7644;
+  text-shadow: 0 0 0.5rem black;
+}
+
+.btn {
+  position: absolute;
+  bottom: 20px;
+  border: 0.4rem solid #44282e;
+  border-radius: 0.5rem;
+  background: #bf754456;
+}
+.btn:hover {
+  transform: scale(1.1);
+  border-color: #bf7644;
+  box-shadow: 0 0 1rem #bf7644;
+}
+.btn1 {
+  left: 30%;
+}
+.btn2 {
+  right: 30%;
+}
+
+.link {
+  text-decoration: none;
+  font-size: 2rem;
+  color: white;
   text-shadow: 0 0 0.5rem black;
 }
