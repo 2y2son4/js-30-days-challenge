@@ -11,6 +11,12 @@ html {
   font-family: sans-serif;
 }
 
+@media only screen and (max-width: 768px) {
+  .keys {
+    flex-wrap: wrap;
+  }
+}
+
 .keys {
   display: flex;
   flex: 1;
@@ -26,17 +32,17 @@ html {
   font-size: 1.5rem;
   padding: 1rem 0.5rem;
   transition: all 0.07s ease;
-  width: 10rem;
+  min-width: 5rem;
   text-align: center;
   color: white;
-  background: rgba(0, 0, 0, 0.4);
+  background: #bf754456;
   text-shadow: 0 0 0.5rem #44282e;
 }
 
 .playing {
   transform: scale(1.1);
-  border-color: #b56f3f;
-  box-shadow: 0 0 1rem #b56f3f;
+  border-color: #bf7644;
+  box-shadow: 0 0 1rem #bf7644;
 }
 
 kbd {
@@ -46,7 +52,9 @@ kbd {
 
 .sound {
   font-size: 1.2rem;
+  font-weight: bold;
   text-transform: uppercase;
   letter-spacing: 0.1rem;
-  color: #b56f3f;
+  color: #bf7644;
+  text-shadow: 0 0 0.5rem black;
 }
