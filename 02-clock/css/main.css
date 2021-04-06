@@ -49,12 +49,12 @@ body {
   transition-timing-function: ease-in-out;
 }
 
-.hour-hand,
-.min-hand {
-  box-shadow: 0 0 1px 3px #019bc54f, inset 0 0 0 3px rgb(19, 16, 16), inset 0 0 10px #002d3a,
-    0 0 10px rgba(0, 84, 107, 0.075);
+.hour-hand {
+  box-shadow: 0 0 1px 3px #019bc54f, inset 0 0 0 3px #0d1e25, inset 0 0 10px #002d3a, 0 0 10px rgba(0, 84, 107, 0.075);
 }
-
+.min-hand {
+  box-shadow: 0 0 1px 3px #019bc54f, inset 0 0 0 3px #15353d, inset 0 0 10px #002d3a, 0 0 10px rgba(0, 84, 107, 0.075);
+}
 .second-hand {
   box-shadow: 0 0 1px 3px #019bc54f, inset 0 0 0 3px #b32929, inset 0 0 10px #002d3a, 0 0 10px rgba(0, 84, 107, 0.075);
 }
