@@ -20,7 +20,7 @@
 <img src="./readme-img/01.png">
 </p>
 
-### **[Day 02: Clock](https://2y2son4.github.io/clock-day2)**.
+### **[Day 02: Clock](https://2y2son4.github.io/clock-day02)**.
 
 #### **CSS**
 
