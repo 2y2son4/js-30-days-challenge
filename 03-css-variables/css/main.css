@@ -40,7 +40,7 @@ body {
   margin: auto;
   display: grid;
   grid-template-columns: 1fr 1.8fr;
-  grid-template-rows: 60px 60px 60px 60px 60px 60px 60px 60px;
+  grid-template-rows: 60px 60px 60px 60px 60px 50px 50px 60px;
 }
 
 input {
@@ -75,11 +75,29 @@ img {
 .base {
   grid-row: 5 / 6;
 }
+.btn {
+  cursor: pointer;
+  color: #193549;
+  grid-row: 8 / 9;
+  width: 100px;
+  height: 40px;
+  border-radius: 10px;
+  border: #135058 3px solid;
+  background-color: #f1f2b5;
+  transition: all 0.4s ease;
+  font-weight: bold;
+}
+.btn:hover {
+  color: #f1f2b5;
+  border: #f1f2b5 3px solid;
+  background-color: #135058;
+}
 .width,
 .spacing,
 .radius,
 .blur,
-.base {
+.base,
+.btn {
   justify-self: start;
   margin-left: 50px;
 }
