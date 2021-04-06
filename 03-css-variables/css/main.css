@@ -75,6 +75,16 @@ img {
 .base {
   grid-row: 5 / 6;
 }
+.width,
+.spacing,
+.radius,
+.blur,
+.base,
+.btn {
+  justify-self: start;
+  margin-left: 50px;
+}
+
 .btn {
   cursor: pointer;
   color: #193549;
@@ -85,19 +95,41 @@ img {
   border: #135058 3px solid;
   background-color: #f1f2b5;
   transition: all 0.4s ease;
-  font-weight: bold;
+  font-size: 18px;
 }
 .btn:hover {
   color: #f1f2b5;
   border: #f1f2b5 3px solid;
   background-color: #135058;
 }
-.width,
-.spacing,
-.radius,
-.blur,
-.base,
-.btn {
-  justify-self: start;
-  margin-left: 50px;
+
+.btn-share {
+  height: 40px;
+  position: absolute;
+  bottom: 20px;
+  border: none;
+  box-shadow: 0 0 1px 3px #135058, 0 0 0 3px rgb(19, 16, 16), 0 0 10px #002d3a, 0 0 10px rgba(0, 84, 107, 0.075);
+  border-radius: 10px;
+  background: #f1f2b5;
+}
+
+.btn-share:hover {
+  border: 3px #f1f2b5 solid;
+  box-shadow: 0 0 1rem #f1f2b5;
+  background: #135058;
+}
+.btn1 {
+  left: 30%;
+}
+.btn2 {
+  right: 30%;
+}
+.link {
+  text-decoration: none;
+  font-size: 18px;
+  padding: 5px;
+  color: #135058;
+}
+.link:hover {
+  color: #f1f2b5;
 }
