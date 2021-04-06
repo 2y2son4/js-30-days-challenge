@@ -1,0 +1,61 @@
+:root {
+  --width: 300px;
+  --spacing: 10px;
+  --radius: 1%;
+  --blur: 0px;
+  --base: #fabada;
+}
+
+body {
+  text-align: center;
+  background: #193549;
+  color: white;
+  font-family: 'helvetica neue', sans-serif;
+  font-weight: 100;
+  font-size: 28px;
+}
+
+.controls {
+  margin-bottom: 50px;
+  grid-row: 1 / 6;
+}
+
+.grid {
+  margin-bottom: 50px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 100px 100px 100px 100px 100px;
+}
+
+input {
+  width: 80px;
+}
+
+label {
+  grid-column: 1 / 2;
+}
+
+img {
+  padding: var(--spacing);
+  background: var(--base);
+  filter: blur(var(--blur));
+  border-radius: var(--radius);
+  width: var(--width);
+  grid-column: 2 / 3;
+}
+
+.width {
+  grid-row: 1 / 2;
+}
+.spacing {
+  grid-row: 2 / 3;
+}
+.radius {
+  grid-row: 3 / 4;
+}
+.blur {
+  grid-row: 4 / 5;
+}
+.base {
+  grid-row: 5 / 6;
+}

@@ -42,3 +42,9 @@
 <p align="left">
 <img src="./readme-img/02.png">
 </p>
+
+### **[Day 03: CSS variables](https://2y2son4.github.io/css-variables-day03)**.
+
+#### **CSS**
+
+#### **JS**
