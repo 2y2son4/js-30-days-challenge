@@ -6,13 +6,25 @@
   --base: #fabada;
 }
 
+html {
+  height: 100vh;
+  background: linear-gradient(to bottom, #f1f2b5, #135058);
+}
 body {
+  margin: 0;
+  padding: 0;
   text-align: center;
-  background: #193549;
-  color: white;
+  color: #193549;
   font-family: 'helvetica neue', sans-serif;
-  font-weight: 100;
-  font-size: 28px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.title {
+  font-size: 36px;
+  border-bottom: #135058 3px solid;
+  padding-bottom: 20px;
+  margin-bottom: 60px;
 }
 
 .controls {
@@ -23,7 +35,7 @@ body {
 .grid {
   margin-bottom: 50px;
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 0.5fr 1fr;
   grid-template-rows: 100px 100px 100px 100px 100px;
 }
 
@@ -58,4 +70,13 @@ img {
 }
 .base {
   grid-row: 5 / 6;
+}
+
+.width,
+.spacing,
+.radius,
+.blur,
+.base {
+  justify-self: start;
+  margin-left: 50px;
 }
