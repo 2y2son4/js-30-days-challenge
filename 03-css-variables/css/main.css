@@ -1,8 +1,10 @@
 :root {
-  --width: 300px;
+  --width: 200px;
   --spacing: 10px;
   --radius: 1%;
   --blur: 0px;
+  --grey: 1%;
+  --invert: 1%;
   --base: #fabada;
 }
 
@@ -33,10 +35,12 @@ body {
 }
 
 .grid {
+  max-width: 1024px;
   margin-bottom: 50px;
+  margin: auto;
   display: grid;
-  grid-template-columns: 0.5fr 1fr;
-  grid-template-rows: 100px 100px 100px 100px 100px;
+  grid-template-columns: 1fr 1.8fr;
+  grid-template-rows: 60px 60px 60px 60px 60px 60px 60px 60px;
 }
 
 input {
@@ -48,11 +52,11 @@ label {
 }
 
 img {
+  width: var(--width);
   padding: var(--spacing);
   background: var(--base);
   filter: blur(var(--blur));
   border-radius: var(--radius);
-  width: var(--width);
   grid-column: 2 / 3;
 }
 
@@ -71,7 +75,6 @@ img {
 .base {
   grid-row: 5 / 6;
 }
-
 .width,
 .spacing,
 .radius,
