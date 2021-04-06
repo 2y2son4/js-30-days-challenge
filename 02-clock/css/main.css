@@ -1,0 +1,87 @@
+html {
+  background: #019ac5 url(../img/04.jpg) center no-repeat;
+  background-size: cover;
+  font-family: 'helvetica neue';
+  text-align: center;
+  font-size: 10px;
+}
+
+body {
+  margin: 0;
+  font-size: 2rem;
+  display: flex;
+  flex: 1;
+  min-height: 100vh;
+  align-items: center;
+}
+
+.clock {
+  width: 30rem;
+  height: 30rem;
+  background: url(../img/clock.svg) center no-repeat;
+  background-color: rgba(255, 255, 255, 0.178);
+  border: 5px solid #019ac5;
+  border-radius: 50%;
+  margin: 50px auto;
+  position: relative;
+  padding: 2rem;
+  box-shadow: 0 0 0 4px rgba(1, 154, 197, 0.1), inset 0 0 0 3px #7dcde4, inset 0 0 10px rgb(1, 154, 197),
+    0 0 10px rgba(1, 155, 197, 0.075);
+}
+
+.clock-face {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transform: translateY(-3px); /* account for the height of the clock hands */
+}
+
+.hand {
+  width: 50%;
+  height: 4px;
+  background-color: #019ac5;
+  border-radius: 5px;
+  position: absolute;
+  top: 50%;
+  transform-origin: 100%;
+  transform: rotate(90deg);
+  transition: all 0.05s;
+  transition-timing-function: ease-in-out;
+}
+
+.hour-hand,
+.min-hand {
+  box-shadow: 0 0 1px 3px #019bc54f, inset 0 0 0 3px rgb(19, 16, 16), inset 0 0 10px #002d3a,
+    0 0 10px rgba(0, 84, 107, 0.075);
+}
+
+.second-hand {
+  box-shadow: 0 0 1px 3px #019bc54f, inset 0 0 0 3px #b32929, inset 0 0 10px #002d3a, 0 0 10px rgba(0, 84, 107, 0.075);
+}
+
+.btn {
+  position: absolute;
+  bottom: 20px;
+  border: none;
+  box-shadow: 0 0 1px 3px #019bc54f, 0 0 0 3px rgb(19, 16, 16), 0 0 10px #002d3a, 0 0 10px rgba(0, 84, 107, 0.075);
+  border-radius: 0.5rem;
+  background: #019ac5;
+}
+.btn:hover {
+  transform: scale(1.1);
+  border: 3px #b32929 solid;
+  box-shadow: 0 0 1rem #b32929;
+}
+.btn1 {
+  left: 30%;
+}
+.btn2 {
+  right: 30%;
+}
+
+.link {
+  text-decoration: none;
+  font-size: 2rem;
+  color: white;
+  text-shadow: 0 0 0.5rem black;
+}
