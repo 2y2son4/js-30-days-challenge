@@ -19,3 +19,26 @@
 <p align="left">
 <img src="./readme-img/01.png">
 </p>
+
+### **[Day 02: Clock](https://2y2son4.github.io/clock)**.
+
+#### **CSS**
+
+- transform:
+  - rotate()
+- transform-origin
+- transition-timing-function:
+  - cubic-bezier
+
+#### **JS**
+
+- Date()
+  - .getSeconds()
+  - .getMinutes()
+  - .getHours()
+- Element.style
+- setInterval
+
+<p align="left">
+<img src="./readme-img/02.png">
+</p>
