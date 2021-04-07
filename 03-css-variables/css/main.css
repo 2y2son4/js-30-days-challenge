@@ -9,8 +9,7 @@
 }
 
 html {
-  height: 100vh;
-  background: linear-gradient(to bottom, #f1f2b5, #135058);
+  background: #f1f2b5;
 }
 body {
   margin: 0;
@@ -19,76 +18,42 @@ body {
   color: #193549;
   font-family: 'helvetica neue', sans-serif;
   font-weight: bold;
-  font-size: 20px;
+  font-size: 16px;
 }
 
 .title {
-  font-size: 36px;
+  font-size: 24px;
   border-bottom: #135058 3px solid;
   padding-bottom: 20px;
-  margin-bottom: 60px;
-}
-
-.controls {
-  margin-bottom: 50px;
-  grid-row: 1 / 6;
+  margin-bottom: 20px;
 }
 
 .grid {
-  max-width: 1024px;
-  margin-bottom: 50px;
-  margin: auto;
-  display: grid;
-  grid-template-columns: 1fr 1.8fr;
-  grid-template-rows: 60px 60px 60px 60px 60px 50px 50px 60px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 input {
-  width: 80px;
+  width: 180px;
+  margin: 15px 35px 15px 0;
 }
 
-label {
-  grid-column: 1 / 2;
+.img-container {
+  width: 100%;
 }
-
 img {
   width: var(--width);
   padding: var(--spacing);
   background: var(--base);
   filter: blur(var(--blur));
   border-radius: var(--radius);
-  grid-column: 2 / 3;
-}
-
-.width {
-  grid-row: 1 / 2;
-}
-.spacing {
-  grid-row: 2 / 3;
-}
-.radius {
-  grid-row: 3 / 4;
-}
-.blur {
-  grid-row: 4 / 5;
-}
-.base {
-  grid-row: 5 / 6;
-}
-.width,
-.spacing,
-.radius,
-.blur,
-.base,
-.btn {
-  justify-self: start;
-  margin-left: 50px;
+  margin: 20px 0;
 }
 
 .btn {
   cursor: pointer;
-  color: #193549;
-  grid-row: 8 / 9;
+  color: #135058;
   width: 100px;
   height: 40px;
   border-radius: 10px;
@@ -96,6 +61,8 @@ img {
   background-color: #f1f2b5;
   transition: all 0.4s ease;
   font-size: 18px;
+  margin: 20px;
+  align-self: center;
 }
 .btn:hover {
   color: #f1f2b5;
@@ -105,31 +72,105 @@ img {
 
 .btn-share {
   height: 40px;
-  position: absolute;
   bottom: 20px;
-  border: none;
-  box-shadow: 0 0 1px 3px #135058, 0 0 0 3px rgb(19, 16, 16), 0 0 10px #002d3a, 0 0 10px rgba(0, 84, 107, 0.075);
+  margin: 20px;
+  border: 3px #135058 solid;
   border-radius: 10px;
   background: #f1f2b5;
+  transition: all 0.4s ease;
 }
-
 .btn-share:hover {
   border: 3px #f1f2b5 solid;
   box-shadow: 0 0 1rem #f1f2b5;
   background: #135058;
 }
-.btn1 {
-  left: 30%;
-}
-.btn2 {
-  right: 30%;
-}
+
 .link {
   text-decoration: none;
   font-size: 18px;
-  padding: 5px;
+  padding: 10px;
   color: #135058;
 }
 .link:hover {
   color: #f1f2b5;
+}
+
+/* TABLET */
+@media (min-width: 795px) {
+  html {
+    height: 100vh;
+    background: linear-gradient(to bottom, #f1f2b5, #135058);
+  }
+  body {
+    font-size: 20px;
+  }
+
+  .title {
+    font-size: 36px;
+    padding-bottom: 20px;
+    margin-bottom: 60px;
+  }
+
+  input {
+    width: 85px;
+  }
+
+  .grid {
+    max-width: 1024px;
+    margin-bottom: 50px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1.8fr;
+    grid-template-rows: 60px 60px 60px 60px 60px 50px 50px 40px;
+  }
+
+  img {
+    grid-column: 2 / 3;
+    justify-self: center;
+    margin: 0;
+  }
+
+  label {
+    grid-column: 1 / 2;
+  }
+
+  .width {
+    grid-row: 1 / 2;
+  }
+  .spacing {
+    grid-row: 2 / 3;
+  }
+  .radius {
+    grid-row: 3 / 4;
+  }
+  .blur {
+    grid-row: 4 / 5;
+  }
+  .base {
+    grid-row: 5 / 6;
+  }
+  .width,
+  .spacing,
+  .radius,
+  .blur,
+  .base,
+  .btn {
+    justify-self: start;
+    margin-left: 10px;
+  }
+
+  .btn {
+    color: #193549;
+    grid-column: 1 / 2;
+    grid-row: 8 / 9;
+  }
+  .btn-share {
+    position: absolute;
+  }
+  .btn1 {
+    left: 30%;
+  }
+  .btn2 {
+    right: 30%;
+  }
 }

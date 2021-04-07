@@ -6,12 +6,13 @@
     <link rel="stylesheet" href="./css/main.css" />
     <title>#3: CSS variables | #javascript30</title>
   </head>
+
   <body>
     <h1 class="title">Update CSS Variables with <span class="hl">JS</span></h1>
 
     <div class="controls grid">
       <label for="width" class="width"
-        >Width: <input id="width" type="range" name="width" min="100" max="500" value="200" data-sizing="px"
+        >Size: <input id="width" type="range" name="width" min="100" max="500" value="200" data-sizing="px"
       /></label>
       <label for="spacing" class="spacing"
         >Spacing: <input id="spacing" type="range" name="spacing" min="5" max="30" value="10" data-sizing="px"
@@ -22,18 +23,27 @@
       <label for="blur" class="blur"
         >Blur: <input id="blur" type="range" name="blur" min="0" max="20" value="0" data-sizing="px"
       /></label>
-      <label for="base" class="base">Base Color <input id="base" type="color" name="base" value="#fabada" /></label>
+      <label for="base" class="base">Base Color: <input id="base" type="color" name="base" value="#fabada" /></label>
+
+      <div class="img-container">
+        <img
+          src="https://www.musee-orsay.fr/typo3temp/zoom/tmp_a3f67eadb8d8e205ce2509d2a5f68c27.gif"
+          alt="L’Origine du monde, de Gustave Courbet"
+        />
+      </div>
+
       <button class="btn reset">Reset</button>
-      <img src="https://www.musee-orsay.fr/typo3temp/zoom/tmp_a3f67eadb8d8e205ce2509d2a5f68c27.gif" />
     </div>
+
     <button class="btn-share btn1">
-      <a class="link" title="Go to repository" target="_blank" href="https://github.com/2y2son4/css-variables-day03"
-        >GitHub</a
-      >
+      <a class="link" title="Go to repository" target="_blank" href="https://github.com/2y2son4/css-variables-day03">
+        GitHub
+      </a>
     </button>
     <button class="btn-share btn2">
       <a class="link" title="Go to challenge page" target="_blank" href="https://javascript30.com/">#javascript30</a>
     </button>
+
     <script src="./js/main.js"></script>
   </body>
 </html>
