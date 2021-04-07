@@ -20,7 +20,7 @@
 
 <p>
 <details>
-<summary>Click this see <strong>layout</strong>.</summary>
+<summary>Click here to check the <strong>layout</strong>.</summary>
 <p align="left">
 <img src="./readme-img/01.png">
 </p>
@@ -48,7 +48,7 @@
 
 <p>
 <details>
-<summary>Click this see <strong>layout</strong>.</summary>
+<summary>Click here to check the <strong>layout</strong>.</summary>
 <p align="left">
 <img src="./readme-img/02.png">
 </p>
@@ -72,9 +72,24 @@
 
 <p>
 <details>
-<summary>Click this see <strong>layout</strong>.</summary>
+<summary>Click here to check the <strong>layout</strong>.</summary>
 <p align="left">
 <img src="./readme-img/03.png">
+</p>
+</details>
+</p>
+
+### **[Day 04: Array Cardio day 1](https://2y2son4.github.io/array-cardio-day04)**.
+
+#### **CSS**
+
+#### **JS**
+
+<p>
+<details>
+<summary>Click here to check the <strong>layout</strong>.</summary>
+<p align="left">
+<img src="./readme-img/04.png">
 </p>
 </details>
 </p>
