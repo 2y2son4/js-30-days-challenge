@@ -1,7 +1,10 @@
 body {
   height: 100vh;
+  background-color: #12354e;
+  color: whitesmoke;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  font-size: 30px;
+  font-size: 28px;
 }
