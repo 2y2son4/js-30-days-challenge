@@ -81,15 +81,23 @@
 
 ### **[Day 04: Array Cardio day 1](https://2y2son4.github.io/array-cardio-day04)**.
 
-#### **CSS**
-
 #### **JS**
+
+- [console.table()](https://developer.mozilla.org/en-US/docs/Web/API/Console/table)
+- .filter()
+- .map()
+- .reduce()
+- .sort()
+- [Array.from](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/from)
+- Destructuring
+- [Spread operator](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax)
+- Ternary conditional
 
 <p>
 <details>
-<summary>Click here to check the <strong>layout</strong>.</summary>
+<summary>Click here to check the <strong>console</strong>.</summary>
 <p align="left">
-<img src="./readme-img/04.png">
+<img src="./readme-img/04-console.gif">
 </p>
 </details>
 </p>
