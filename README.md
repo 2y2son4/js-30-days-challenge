@@ -1,6 +1,6 @@
-# [Wes Bos' 30 days Vanilla JS challenge](https://javascript30.com/).
+# [Wes Bos' 30 days Vanilla JS challenge](https://javascript30.com/)
 
-## No frameworks, no compilers, no fuss.
+## `No frameworks, no compilers, no fuss`.
 
 ### [Day 01: Drum Kit](https://2y2son4.github.io/drum-kit-day01/).
 
@@ -20,7 +20,7 @@
 
 <p>
 <details>
-<summary>Click here to check the <strong>layout</strong>.</summary>
+<summary style="color:crimson">Click here to check the <strong>layout</strong>.</summary>
 <p align="left">
 <img src="./readme-img/01.png">
 </p>
@@ -48,7 +48,7 @@
 
 <p>
 <details>
-<summary>Click here to check the <strong>layout</strong>.</summary>
+<summary style="color:crimson">Click here to check the <strong>layout</strong>.</summary>
 <p align="left">
 <img src="./readme-img/02.png">
 </p>
@@ -72,7 +72,7 @@
 
 <p>
 <details>
-<summary>Click here to check the <strong>layout</strong>.</summary>
+<summary style="color:crimson">Click here to check the <strong>layout</strong>.</summary>
 <p align="left">
 <img src="./readme-img/03.png">
 </p>
@@ -95,7 +95,7 @@
 
 <p>
 <details>
-<summary>Click here to check the <strong>console</strong>.</summary>
+<summary style="color:crimson">Click here to check the <strong>console</strong>.</summary>
 <p align="left">
 <img src="./readme-img/04-console.gif">
 </p>
