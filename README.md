@@ -1,8 +1,12 @@
 # [Wes Bos' 30 days Vanilla JS challenge](https://javascript30.com/)
 
-## `No frameworks, no compilers, no fuss.`
+## `No frameworks, no compilers, no fuss;`
 
 ### [Day 01: Drum Kit](https://2y2son4.github.io/drum-kit-day01/).
+
+### **HTML**
+
+- [`<kbd>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/kbd)
 
 #### **JS**
 
@@ -39,12 +43,12 @@
 
 #### **JS**
 
-- Date()
+- [Date()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date)
   - .getSeconds()
   - .getMinutes()
   - .getHours()
 - Element.style
-- setInterval()
+- [setInterval()](https://developer.mozilla.org/en-US/docs/Web/API/WindowOrWorkerGlobalScope/setInterval)
 
 <p>
 <details>
@@ -79,7 +83,7 @@
 </details>
 </p>
 
-### **[Day 04: Array Cardio day 1](https://2y2son4.github.io/array-cardio-day04)**.
+### **[Day 04: Array Cardio day 1](https://github.com/2y2son4/js-30-days-challenge/tree/main/04-array-cardio)**.
 
 #### **JS**
 
@@ -98,6 +102,21 @@
 <summary style="color:crimson">Click here to check the <strong>console</strong>.</summary>
 <p align="left">
 <img src="./readme-img/04-console.gif">
+</p>
+</details>
+</p>
+
+### **[Day 05: Flex panels](https://2y2son4.github.io/flex-panels-layout-day06)**.
+
+#### **CSS**
+
+#### **JS**
+
+<p>
+<details>
+<summary style="color:crimson">Click here to check the <strong>layout</strong>.</summary>
+<p align="left">
+<img src="./readme-img/">
 </p>
 </details>
 </p>
