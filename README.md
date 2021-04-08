@@ -106,17 +106,26 @@
 </details>
 </p>
 
-### **[Day 05: Flex panels](https://2y2son4.github.io/flex-panels-layout-day06)**.
+### **[Day 05: Flex panels](https://2y2son4.github.io/flex-portfolio)**.
 
 #### **CSS**
 
+- [flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+- :first-child
+- :last-child
+- :nth-child()
+
 #### **JS**
+
+- Element.classList.toggle()
+- Document.querySelectorAll()
+- .forEach()
 
 <p>
 <details>
 <summary style="color:crimson">Click here to check the <strong>layout</strong>.</summary>
 <p align="left">
-<img src="./readme-img/">
+<img src="./readme-img/05-layout.gif">
 </p>
 </details>
 </p>
