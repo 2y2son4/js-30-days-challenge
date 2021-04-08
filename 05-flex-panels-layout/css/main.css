@@ -1,6 +1,6 @@
 html {
   box-sizing: border-box;
-  background: #ffc600;
+  background: #e5236e;
   font-family: 'helvetica neue';
   font-size: 20px;
   font-weight: 200;
@@ -41,21 +41,34 @@ body {
   justify-content: center;
   align-items: center;
 }
+.pointer {
+  cursor: pointer;
+}
 
 .panel1 {
-  background-image: url(https://source.unsplash.com/gYl-UtwNg_I/1500x1500);
+  background-image: url(https://assets.lomography.com/e5/ef44af544eaee0a4b03006ace5305ebc942fd5.jpg?auth=8782ef7ffbfa66afddae888846c954e72922af94);
+  /* https://assets.lomography.com/42/bc91ce926b27c6540e0fe995c4fef247787478.jpg?auth=c5d85c16006026cf21d35848d7813433020f7fab */
+  /* https://assets.lomography.com/39/1395c98d085d168bf09192588e861215d154e1.jpg?auth=cddf5aafe497e3ee96ddb4cbf839139b6140250d */
+  /*  */
 }
+
 .panel2 {
-  background-image: url(https://source.unsplash.com/rFKUFzjPYiQ/1500x1500);
+  background-image: url(https://assets.lomography.com/5f/a00beb23f50a5e8b07087435cc7868c9befac9.jpg?auth=b16c00f50d9cb55839a96e01592c3b6b542fcf08);
+  /* https://assets.lomography.com/fa/8d01151d95850b75db90847f494a26d414f60a.jpg?auth=c5695d8c5b99619541fef6663d808e5d4a39166e */
 }
 .panel3 {
-  background-image: url(https://images.unsplash.com/photo-1465188162913-8fb5709d6d57?ixlib=rb-0.3.5&q=80&fm=jpg&crop=faces&cs=tinysrgb&w=1500&h=1500&fit=crop&s=967e8a713a4e395260793fc8c802901d);
+  background-image: url('../img/03.jpg');
+  /* https://assets.lomography.com/5c/c6f1a1a00484b7859ba10429bcce83da953711.jpg?auth=c29bac1ff2f3009c41e4b8bfdd2c48f56fa47887 */
 }
 .panel4 {
-  background-image: url(https://source.unsplash.com/ITjiVXcwVng/1500x1500);
+  background-image: url(https://assets.lomography.com/dc/9bb8243a92f7857d32c4dfbcd7f352f115989b.jpg?auth=0842aa5adf3f1108e11dcf2f2bd997be1945ee69);
+
+  /* background-image: url(https://assets.lomography.com/b1/36d011f65c30fb2261289980d2f858a5c6f45b.jpg?auth=1fbdff7eae24eecd751a1e087b88d20ee8207645); */
+  /* background-image: url(https://assets.lomography.com/7e/99bc50396f896dd5c539f7540039bebf729137.jpg?auth=e5016608e0669994744f5d43c01cd957b6d2a96b); */
 }
 .panel5 {
-  background-image: url(https://source.unsplash.com/3MNzGlQM7qs/1500x1500);
+  background-image: url(https://assets.lomography.com/73/4e96c6365052b40a9a1fb5148f6287dff9fc34.jpg?auth=23bdb8b2c5f7585de0dd3d5cfaa739d212e0e51c);
+  /* https://assets.lomography.com/36/7bf2db9d5d392f619f6db44953935b2127134c.jpg?auth=fe0cfc4fad78c40cfd1e3c3d4b3ec0dff02097fd */
 }
 
 /* Flex Children */
@@ -81,6 +94,25 @@ body {
 .panel.open-active > *:last-child {
   transform: translateY(0);
 }
+.panel.panel1.open.open-active {
+  background: linear-gradient(#6d9926, rgb(182, 204, 146));
+}
+.panel.panel2.open.open-active {
+  background: linear-gradient(#9fe62e, #b1d873);
+}
+.panel.panel3.open.open-active {
+  background: linear-gradient(#e6226d, #e9518b);
+}
+.panel.panel4.open.open-active {
+  background: linear-gradient(#17e69a, #6cdab1);
+}
+.panel.panel5.open.open-active {
+  background: linear-gradient(#089964, #3d9273);
+}
+
+.avatar {
+  width: 75px;
+}
 
 .panel p {
   text-transform: uppercase;
@@ -90,12 +122,25 @@ body {
 }
 
 .panel p:nth-child(2) {
-  font-size: 4em;
+  font-size: 3em;
 }
 
 .panel.open {
   font-size: 40px;
   flex: 5;
+}
+.links {
+  font-size: 40px;
+  color: #1b284b;
+  padding: 10px;
+  transition: all 0.4s ease;
+}
+.links:hover {
+  color: #061231;
+  transform: scale(1.1);
+}
+.contact {
+  color: #1b284b;
 }
 
 .cta {
