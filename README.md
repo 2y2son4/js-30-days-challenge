@@ -1,6 +1,6 @@
 # [Wes Bos' 30 days Vanilla JS challenge](https://javascript30.com/)
 
-## `No frameworks, no compilers, no fuss`.
+## `No frameworks, no compilers, no fuss.`
 
 ### [Day 01: Drum Kit](https://2y2son4.github.io/drum-kit-day01/).
 
@@ -44,7 +44,7 @@
   - .getMinutes()
   - .getHours()
 - Element.style
-- setInterval
+- setInterval()
 
 <p>
 <details>
