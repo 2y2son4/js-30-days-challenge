@@ -41,7 +41,7 @@ input.search {
   margin: 0;
   position: relative;
   width: auto;
-  padding: 4px;
+  padding: 0;
 }
 
 .suggestions li {
@@ -54,24 +54,15 @@ input.search {
   transition: background 0.2s;
   display: flex;
   flex-direction: column;
+  justify-content: center;
   text-transform: capitalize;
-
-  height: 110px;
-}
-
-/* .suggestions li:nth-child(even) {
-  transform: perspective(100px) rotateX(3deg) translateY(2px) scale(1.001);
   background: linear-gradient(to bottom, #ffffff 0%, #efefef 100%);
+  height: 130px;
 }
-
-.suggestions li:nth-child(odd) {
-  transform: perspective(100px) rotateX(-3deg) translateY(3px);
-  background: linear-gradient(to top, #ffffff 0%, #efefef 100%);
-} */
 
 span.population {
   font-size: 15px;
-  padding: 4px;
+  padding: 4px auto;
 }
 
 .hl {
@@ -84,9 +75,14 @@ span.population {
   cursor: pointer;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 16px;
-  padding: 4px;
+  padding: 4px auto;
   margin-right: auto;
 }
 .links:hover {
   border-bottom: 1px solid teal;
+}
+
+.name,
+.population {
+  margin-bottom: 8px;
 }

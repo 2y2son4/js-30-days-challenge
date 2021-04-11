@@ -32,23 +32,27 @@ function displayMatches() {
       //   console.log(place);
       //
       function icon(number) {
-        if (number < 50000) {
-          return '<i class="fas fa-home"></i>';
-        } else {
+        if (number > 1000000) {
+          return '<i class="fas fa-city"></i><i class="fas fa-city"></i><i class="fas fa-city"></i>';
+        } else if (number > 500000) {
+          return '<i class="fas fa-city"></i><i class="fas fa-city"></i>';
+        } else if (number > 200000) {
           return '<i class="fas fa-city"></i>';
+        } else {
+          return '<i class="fas fa-home"></i>';
         }
       }
       return `
       <li>
-      <span class="name"> ${icon(place.population)} ${cityName}, ${stateName}</span>
+      <span class="name">  ${cityName}, ${stateName} ${icon(place.population)}</span>
       <span class="population"><i class="fas fa-universal-access"></i> ${population(place.population)}</span>
-      <a 
+      <span class="population"><a 
       href="https://www.google.com/maps/search/?api=1&query=${place.latitude},${place.longitude}"
       target="_blank"
       class="links">
       <i class="links-border fas fa-map-marked-alt"></i>
       ${place.latitude}, ${place.longitude}
-      </a>
+      </a></span>
       </li>
       `;
     })
