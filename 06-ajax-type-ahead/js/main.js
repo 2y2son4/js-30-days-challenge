@@ -46,7 +46,7 @@ function displayMatches() {
       href="https://www.google.com/maps/search/?api=1&query=${place.latitude},${place.longitude}"
       target="_blank"
       class="links">
-      <i class="fas fa-map-marked-alt"></i>
+      <i class="links-border fas fa-map-marked-alt"></i>
       ${place.latitude}, ${place.longitude}
       </a>
       </li>
