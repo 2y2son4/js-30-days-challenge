@@ -129,3 +129,18 @@
 </p>
 </details>
 </p>
+
+### **[Day 06: Ajax type ahead](https://2y2son4.github.io/)**.
+
+#### **CSS**
+
+#### **JS**
+
+<p>
+<details>
+<summary style="color:crimson">Click here to check the <strong>layout</strong>.</summary>
+<p align="left">
+<img src="./readme-img/">
+</p>
+</details>
+</p>
