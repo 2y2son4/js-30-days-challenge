@@ -1,6 +1,6 @@
 body {
   height: 90vh;
-  background-color: #12354e;
+  background-color: #4b2247;
   color: whitesmoke;
   display: flex;
   flex-direction: column;
@@ -12,15 +12,15 @@ body {
 .btn {
   position: absolute;
   bottom: 20px;
-  border: 3px #019bc54f solid;
-  box-shadow: 0 0 1px 3px #019bc54f, 0 0 0 3px rgb(19, 16, 16), 0 0 5px #002d3a, 0 0 5px rgba(0, 84, 107, 0.075);
+  border: 3px #4b22473b solid;
+  box-shadow: 0 0 1px 3px #4b22473b, 0 0 0 3px rgb(19, 16, 16), 0 0 5px #002d3a, 0 0 5px rgba(0, 84, 107, 0.075);
   border-radius: 10px;
-  background: #12354e;
+  background: #4b2247;
   transition: all 0.4s ease;
 }
 .btn:hover {
-  border: 3px #b32929 solid;
-  box-shadow: 0 0 8px #b32929;
+  border: 3px #aab329 solid;
+  box-shadow: 0 0 8px #aab329;
 }
 .btn1 {
   left: 30%;
