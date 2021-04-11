@@ -26,7 +26,7 @@
 <details>
 <summary style="color:crimson">Click here to check the <strong>layout</strong>.</summary>
 <p align="left">
-<img src="./readme-img/01.png">
+<img src="./assets/01.png">
 </p>
 </details>
 </p>
@@ -54,7 +54,7 @@
 <details>
 <summary style="color:crimson">Click here to check the <strong>layout</strong>.</summary>
 <p align="left">
-<img src="./readme-img/02.png">
+<img src="./assets/02.png">
 </p>
 </details>
 </p>
@@ -78,7 +78,7 @@
 <details>
 <summary style="color:crimson">Click here to check the <strong>layout</strong>.</summary>
 <p align="left">
-<img src="./readme-img/03.png">
+<img src="./assets/03.png">
 </p>
 </details>
 </p>
@@ -101,7 +101,7 @@
 <details>
 <summary style="color:crimson">Click here to check the <strong>console</strong>.</summary>
 <p align="left">
-<img src="./readme-img/04-console.gif">
+<img src="./assets/04-console.gif">
 </p>
 </details>
 </p>
@@ -125,7 +125,7 @@
 <details>
 <summary style="color:crimson">Click here to check the <strong>layout</strong>.</summary>
 <p align="left">
-<img src="./readme-img/05-layout.gif">
+<img src="./assets/05-layout.gif">
 </p>
 </details>
 </p>
@@ -145,7 +145,7 @@
 <details>
 <summary style="color:crimson">Click here to check the <strong>search</strong>.</summary>
 <p align="left">
-<img src="./readme-img/06.gif">
+<img src="./assets/06.gif">
 </p>
 </details>
 </p>
