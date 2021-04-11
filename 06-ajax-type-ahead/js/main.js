@@ -49,7 +49,7 @@ function displayMatches() {
       <span class="population"><i class="fas fa-universal-access"></i> ${population(place.population)}</span>
       <span class="population"><a 
       href="https://www.google.com/maps/search/?api=1&query=${place.latitude},${place.longitude}"
-      target="_blank"
+      target="_blank" title="Show ${place.city}'s location on a map"
       class="links">
       <i class="links-border fas fa-map-marked-alt"></i>
       ${place.latitude}, ${place.longitude}
