@@ -1,6 +1,8 @@
 html {
   box-sizing: border-box;
   background: #ffc600;
+  background: url(../img/bg.png) repeat;
+  background-size: cover cover;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 20px;
   font-weight: 200;
@@ -26,7 +28,8 @@ input.search {
   margin: 0;
   text-align: center;
   outline: 0;
-  border: 10px solid #f7f7f7;
+  color: #245983;
+  border: 10px solid #245983;
   width: 120%;
   left: -10%;
   position: relative;
@@ -36,7 +39,9 @@ input.search {
   font-size: 40px;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.12), inset 0 0 2px rgba(0, 0, 0, 0.19);
 }
-
+input.search::placeholder {
+  color: #245983;
+}
 .suggestions {
   margin: 0;
   position: relative;
@@ -66,12 +71,12 @@ span.population {
 }
 
 .hl {
-  background: #ffc600;
+  background: #24588370;
 }
 
 .links {
   text-decoration: none;
-  color: teal;
+  color: #245983;
   cursor: pointer;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 16px;
@@ -79,7 +84,7 @@ span.population {
   margin-right: auto;
 }
 .links:hover {
-  border-bottom: 1px solid teal;
+  border-bottom: 1px solid #245983;
 }
 
 .name,
