@@ -1,7 +1,7 @@
 html {
   box-sizing: border-box;
   background: #ffc600;
-  font-family: 'helvetica neue';
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 20px;
   font-weight: 200;
 }
@@ -41,7 +41,7 @@ input.search {
   margin: 0;
   padding: 0;
   position: relative;
-  /*perspective: 20px;*/
+  width: auto;
 }
 
 .suggestions li {
@@ -53,7 +53,7 @@ input.search {
   padding: 20px;
   transition: background 0.2s;
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
   text-transform: capitalize;
 }
 

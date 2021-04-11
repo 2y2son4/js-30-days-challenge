@@ -32,18 +32,23 @@ function displayMatches() {
       //   console.log(place);
       //
       function icon(number) {
-        if (number < 30000) {
-          return (icon = '🏡');
+        if (number < 50000) {
+          return '<i class="fas fa-home"></i>';
         } else {
-          return (icon = '🏙️');
+          return '<i class="fas fa-city"></i>';
         }
       }
       return `
       <li>
       <span class="name"> ${icon(place.population)} ${cityName}, ${stateName}</span>
-      <span class="name"> ${population(place.population)} 👩‍🦲</span>
-      <span class="population"> ${place.latitude},</span>
-      <span class="population"> ${place.longitude}</span>
+      <span class="population"><i class="fas fa-universal-access"></i> ${population(place.population)}</span>
+      <a 
+      href="https://www.google.com/maps/search/?api=1&query=${place.latitude},${place.longitude}"
+      target="_blank"
+      class="links">
+      <i class="fas fa-map-marked-alt"></i>
+      ${place.latitude}, ${place.longitude}
+      </a>
       </li>
       `;
     })
