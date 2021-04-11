@@ -6,6 +6,7 @@ const endpoint =
 const cities = [];
 const inputSearch = document.querySelector('.search');
 const resultSearch = document.querySelector('.suggestions');
+const form = document.querySelector('.search-form');
 
 fetch(endpoint)
   .then((data) => data.json())
@@ -61,5 +62,9 @@ function displayMatches() {
   resultSearch.innerHTML = paintResults;
 }
 
-inputSearch.addEventListener('change', displayMatches);
+function handleForm(ev) {
+  ev.preventDefault();
+}
+
 inputSearch.addEventListener('keyup', displayMatches);
+form.addEventListener('submit', handleForm);
