@@ -1,6 +1,7 @@
 'use strict';
 
 const canvas = document.querySelector('#draw');
+const reset = document.querySelector('.reset');
 const ctx = canvas.getContext('2d');
 
 canvas.width = window.innerWidth;
@@ -55,3 +56,9 @@ canvas.addEventListener('mousedown', (ev) => {
 canvas.addEventListener('mousemove', draw);
 canvas.addEventListener('mouseup', () => (isDrawing = false));
 canvas.addEventListener('mouseout', () => (isDrawing = false));
+
+function handleReset() {
+  ctx.clearRect(0, 0, canvas.width, canvas.height);
+}
+
+reset.addEventListener('click', handleReset);
