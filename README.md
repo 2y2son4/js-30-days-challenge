@@ -189,7 +189,7 @@
 <details>
 <summary style="color:crimson">Click here to check the <strong>result</strong>.</summary>
 <p align="left">
-<img src="./assets/06.gif">
+<img src="./assets/08.gif">
 </p>
 </details>
 </p>
