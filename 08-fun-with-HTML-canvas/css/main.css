@@ -14,7 +14,7 @@ body {
   color: salmon;
   width: 120px;
   border-radius: 10px;
-  border: salmon 10px double;
+  border: salmon 3px solid;
   background-color: #f1f2b5;
   transition: all 0.4s ease;
   font-size: 18px;
@@ -23,7 +23,7 @@ body {
 }
 .reset:hover {
   color: #f1f2b5;
-  border: #f1f2b5 10px double;
+  border: #f1f2b5 3px solid;
   background-color: salmon;
 }
 
@@ -33,7 +33,31 @@ body {
   background-size: cover;
   cursor: url(../img/cursor.cur), auto;
   width: 95%;
-  height: 88%;
+  height: 80%;
   border: salmon 10px double;
-  border-radius: 20px;
+  border-radius: 10px;
+}
+.social-btn {
+  width: 80%;
+  margin: 20px auto;
+  display: flex;
+  justify-content: space-around;
+}
+
+.btn {
+  border: 3px #f1f2b5 solid;
+  border-radius: 10px;
+  background: #f1f2b5;
+  transition: all 0.4s ease;
+}
+.btn:hover {
+  border: 3px #f1f2b5 solid;
+  box-shadow: 0 0 8px #f1f2b5;
+  background: #f1f2b5;
+}
+
+.link {
+  text-decoration: none;
+  font-size: 18px;
+  color: salmon;
 }
