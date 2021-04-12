@@ -4,8 +4,8 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
   background-color: salmon;
+  height: 100vh;
 }
 
 .canvas {
@@ -13,7 +13,8 @@ body {
   background: url(../img/canvas.jpg) center fixed;
   background-size: cover;
   cursor: url(../img/cursor.cur), auto;
-  width: 96%;
-  height: 96%;
-  border: tomato 10px double;
+  width: 95%;
+  height: 95%;
+  border: salmon 10px double;
+  border-radius: 20px;
 }

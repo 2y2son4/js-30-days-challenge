@@ -22,7 +22,7 @@ let direction = true;
 
 function draw(ev) {
   if (!isDrawing) return; // stop the function from running when mouse is not clicked
-  ctx.strokeStyle = `hsl(${hue}, 50%, 50%)`;
+  ctx.strokeStyle = `hsl(${hue}, 60%, 60%)`;
 
   ctx.beginPath();
   // start from
