@@ -130,7 +130,7 @@
 </details>
 </p>
 
-### **[Day 06: Ajax type ahead](https://github.com/2y2son4/js-30-days-challenge/tree/main/06-ajax-type-ahead)**.
+### **[Day 06: Ajax type ahead](https://2y2son4.github.io/ajax-exercise-day06/)**.
 
 #### **JS**
 
@@ -166,6 +166,30 @@
 <summary style="color:crimson">Click here to check the <strong>console</strong>.</summary>
 <p align="left">
 <img src="./assets/07-console.png">
+</p>
+</details>
+</p>
+
+### **[Day 08: Fun with HTML `<canvas>`](https://2y2son4.github.io/fun-with-canvas/)**.
+
+#### **JS**
+
+- [HTMLCanvasElement.getContext()](https://developer.mozilla.org/en-US/docs/Web/API/HTMLCanvasElement/getContext)
+  - [CanvasRenderingContext2d](https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D)
+    - [strokeStyle](https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/strokeStyle)
+    - [lineJoin](https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/lineJoin)
+    - [lineCap](https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/lineCap)
+    - [lineWidth](https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/lineWidth)
+    - [.beginPath()](https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/beginPath)
+    - [.moveTo()](https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/moveTo)
+    - [.lineTo()](https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/lineTo)
+    - [.stroke()](https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/stroke)
+
+<p>
+<details>
+<summary style="color:crimson">Click here to check the <strong>result</strong>.</summary>
+<p align="left">
+<img src="./assets/06.gif">
 </p>
 </details>
 </p>
