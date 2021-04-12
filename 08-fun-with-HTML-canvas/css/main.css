@@ -2,10 +2,29 @@ html,
 body {
   margin: 0;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   background-color: salmon;
   height: 100vh;
+}
+
+.reset {
+  cursor: pointer;
+  color: salmon;
+  width: 120px;
+  border-radius: 10px;
+  border: salmon 10px double;
+  background-color: #f1f2b5;
+  transition: all 0.4s ease;
+  font-size: 18px;
+  align-self: center;
+  margin: 10px;
+}
+.reset:hover {
+  color: #f1f2b5;
+  border: #f1f2b5 10px double;
+  background-color: salmon;
 }
 
 .canvas {
@@ -14,7 +33,7 @@ body {
   background-size: cover;
   cursor: url(../img/cursor.cur), auto;
   width: 95%;
-  height: 95%;
+  height: 88%;
   border: salmon 10px double;
   border-radius: 20px;
 }
