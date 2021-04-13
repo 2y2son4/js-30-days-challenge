@@ -2,6 +2,12 @@
 
 ## `No frameworks, no compilers, no fuss;`
 
+- [01](#day-01:-drum-kit) | [02](#day-02:-clock) | [03](#day-03:-css-variables) | [04](#day-04:-array-cardio-day-1) | [05](#day-05:-flex-panels) | [06](#day-06:-ajax-type-ahead) | [07](#day-07:-array-cardio-day-2) |
+- [08](#day-08:-fun-with-html-canvas) | [09](#day-09:-console-treats-and-tricks) | [10](#day-) | [11](#day-) | [12](#day-) | [13](#day-) | [14](#day-) |
+- [15](#day-) | [16](#day-) | [17](#day-) | [18](#day-) | [19](#day-) | [20](#day-) | [21](#day-) |
+- [22](#day-) | [23](#day-) | [24](#day-) | [25](#day-) | [26](#day-) | [27](#day-) | [28](#day-) |
+- [29](#day-) | [30](#day-) |
+
 ### [Day 01: Drum Kit](https://2y2son4.github.io/drum-kit-day01/).
 
 ### **HTML**
@@ -31,6 +37,8 @@
 </details>
 </p>
 
+[Volver al inicio](#no-frameworks,-no-compilers,-no-fuss;)
+
 ### **[Day 02: Clock](https://2y2son4.github.io/clock-day02)**.
 
 #### **CSS**
@@ -59,6 +67,8 @@
 </details>
 </p>
 
+[Volver al inicio](#no-frameworks,-no-compilers,-no-fuss;)
+
 ### **[Day 03: CSS variables](https://2y2son4.github.io/css-variables-day03)**.
 
 #### **CSS**
@@ -83,6 +93,8 @@
 </details>
 </p>
 
+[Volver al inicio](#no-frameworks,-no-compilers,-no-fuss;)
+
 ### **[Day 04: Array Cardio day 1](https://github.com/2y2son4/js-30-days-challenge/tree/main/04-array-cardio)**.
 
 #### **JS**
@@ -105,6 +117,8 @@
 </p>
 </details>
 </p>
+
+[Volver al inicio](#no-frameworks,-no-compilers,-no-fuss;)
 
 ### **[Day 05: Flex panels](https://2y2son4.github.io/flex-portfolio)**.
 
@@ -130,6 +144,8 @@
 </details>
 </p>
 
+[Volver al inicio](#no-frameworks,-no-compilers,-no-fuss;)
+
 ### **[Day 06: Ajax type ahead](https://2y2son4.github.io/ajax-exercise-day06/)**.
 
 #### **JS**
@@ -149,6 +165,8 @@
 </p>
 </details>
 </p>
+
+[Volver al inicio](#no-frameworks,-no-compilers,-no-fuss;)
 
 ### **[Day 07: Array Cardio day 2](https://github.com/2y2son4/js-30-days-challenge/tree/main/07-array-cardio-2)**.
 
@@ -170,7 +188,13 @@
 </details>
 </p>
 
-### **[Day 08: Fun with HTML `<canvas>`](https://2y2son4.github.io/fun-with-canvas/)**.
+[Volver al inicio](#no-frameworks,-no-compilers,-no-fuss;)
+
+### **[Day 08: Fun with HTML canvas](https://2y2son4.github.io/fun-with-canvas/)**.
+
+#### **HTML**
+
+-`<canvas`
 
 #### **JS**
 
@@ -194,7 +218,9 @@
 </details>
 </p>
 
-### **[Day 09: Console treats and tricks ](https://github.com/2y2son4/js-30-days-challenge/tree/main/09-dev-tools-tricks)**.
+[Volver al inicio](#no-frameworks,-no-compilers,-no-fuss;)
+
+### **[Day 09: Console treats and tricks](https://github.com/2y2son4/js-30-days-challenge/tree/main/09-dev-tools-tricks)**.
 
 #### **JS**
 
@@ -221,3 +247,5 @@
 </p>
 </details>
 </p>
+
+[Volver al inicio](#no-frameworks,-no-compilers,-no-fuss;)
