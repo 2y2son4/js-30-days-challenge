@@ -193,3 +193,31 @@
 </p>
 </details>
 </p>
+
+### **[Day 09: Console treats and tricks ](https://github.com/2y2son4/js-30-days-challenge/tree/main/09-dev-tools-tricks)**.
+
+#### **JS**
+
+- [console.log()](https://developer.mozilla.org/en-US/docs/Web/API/Console/log)
+  - Regular
+  - Interpolated
+  - Styled
+- [console.warn()]()
+- [console.error()](https://developer.mozilla.org/en-US/docs/Web/API/Console/error)
+- [console.info()](https://developer.mozilla.org/en-US/docs/Web/API/Console/info)
+- [console.assert()](https://developer.mozilla.org/en-US/docs/Web/API/console/assert)
+- [console.dir()](https://developer.mozilla.org/en-US/docs/Web/API/Console/dir)
+- [console.group()](https://developer.mozilla.org/en-US/docs/Web/API/Console/group) | [console.groupEnd()](https://developer.mozilla.org/en-US/docs/Web/API/Console/groupEnd)
+- [console.groupCollapsed()](https://developer.mozilla.org/en-US/docs/Web/API/Console/groupCollapsed)
+- [console.count()](https://developer.mozilla.org/en-US/docs/Web/API/Console/count)
+- [console.time()](https://developer.mozilla.org/en-US/docs/Web/API/Console/time) | [console.timeEnd()](https://developer.mozilla.org/en-US/docs/Web/API/Console/timeEnd)
+- [console.table()](https://developer.mozilla.org/en-US/docs/Web/API/Console/table)
+
+<p>
+<details>
+<summary style="color:crimson">Click here to check the <strong>console</strong>.</summary>
+<p align="left">
+<img src="./assets/09-console.gif">
+</p>
+</details>
+</p>
