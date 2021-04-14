@@ -10,7 +10,7 @@
 
 ### [Day 01: Drum Kit](https://2y2son4.github.io/drum-kit-day01/).
 
-### **HTML**
+#### **HTML**
 
 - [`<kbd>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/kbd)
 
