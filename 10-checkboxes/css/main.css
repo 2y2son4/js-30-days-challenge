@@ -14,7 +14,7 @@ html {
 .item {
   display: flex;
   align-items: center;
-  border-bottom: 1px solid #f1f1f1;
+  border-bottom: 1px solid #5d9dd1;
 }
 
 .item:last-child {
@@ -38,5 +38,5 @@ p {
   font-family: 'helvetica neue';
   font-size: 20px;
   font-weight: 200;
-  border-left: 1px solid #d1e2ff;
+  border-left: 1px solid #c24141;
 }
