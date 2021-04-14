@@ -1,9 +1,6 @@
 'use strict';
 
-const formElement = document.querySelector('.form');
 const checkboxes = document.querySelectorAll('.inbox input[type="checkbox"]');
-
-const taskParagraph = document.querySelectorAll('.task');
 
 const inputsTextConfig = [
   {
@@ -62,6 +59,7 @@ const inputsTextConfig = [
   },
 ];
 
+// handle tasks preview
 function updateAllInputs() {
   for (const inputTextConfig of inputsTextConfig) {
     const inputElement = document.querySelector(inputTextConfig.inputClass);
@@ -82,6 +80,12 @@ function updateAllInputs() {
   saveInLocalStorage();
 }
 
+const textInputs = document.querySelectorAll('.add');
+for (const textInput of textInputs) {
+  textInput.addEventListener('keyup', updateAllInputs);
+}
+
+// handle checked and unchecked tasks
 let lastChecked;
 
 function handleCheck(ev) {
@@ -107,15 +111,12 @@ function handleCheck(ev) {
 
 checkboxes.forEach((checkbox) => checkbox.addEventListener('click', handleCheck));
 
-const textInputs = document.querySelectorAll('.add');
-for (const textInput of textInputs) {
-  textInput.addEventListener('keyup', updateAllInputs);
-}
-
-function preventSubmit(ev) {
-  ev.preventDefault();
-}
-formElement.addEventListener('submit', preventSubmit);
+// prevent submit from form
+// const formElement = document.querySelector('.form');
+// function preventSubmit(ev) {
+//   ev.preventDefault();
+// }
+// formElement.addEventListener('submit', preventSubmit);
 
 // Local Storage
 
@@ -157,4 +158,4 @@ function getFromLocalStorage() {
   updateAllInputs();
 }
 getFromLocalStorage();
-updateAllInputs();
+// updateAllInputs();
