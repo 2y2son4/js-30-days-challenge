@@ -1,10 +1,18 @@
+* {
+  font-family: 'Josefin Sans', sans-serif;
+}
 html {
-  font-family: sans-serif;
-  background: #ffc600;
+  background: #fabada;
 }
 
+.title {
+  text-align: center;
+  color: #464646;
+  margin-top: 50px;
+}
 .inbox {
-  max-width: 600px;
+  max-width: 800px;
+  min-width: 400px;
   margin: 50px auto;
   background: white;
   border-radius: 5px;
@@ -25,20 +33,36 @@ input:checked + p {
   background: #f9f9f9;
   text-decoration: line-through;
 }
+input::placeholder {
+  font-family: 'Open Sans', sans-serif;
+}
 
 input[type='checkbox'] {
   margin: 20px;
 }
 
+.add {
+  margin: 10px;
+  padding: 2px;
+  width: 150px;
+  height: 30px;
+}
+
 p {
   margin: 0;
   padding: 20px;
-  transition: background 0.2s;
+  transition: all 0.4s linear;
   flex: 1;
-  font-family: 'helvetica neue';
   font-size: 20px;
   font-weight: 200;
   border-left: 1px solid #c24141;
+}
+
+.paragraph {
+  border: none;
+}
+i {
+  color: #c24141;
 }
 
 /* input[type='text']::placeholder:focus {
