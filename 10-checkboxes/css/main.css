@@ -1,14 +1,22 @@
 * {
   font-family: 'Josefin Sans', sans-serif;
+  box-sizing: border-box;
 }
 html {
   background: #fabada;
 }
-
+.header {
+  display: flex;
+}
 .title {
+  width: 300px;
+  height: 70px;
   text-align: center;
   color: #464646;
-  margin-top: 50px;
+  margin: 0;
+  padding-top: 20px;
+  background: white;
+  border-radius: 5px;
 }
 .inbox {
   max-width: 800px;
@@ -30,9 +38,13 @@ html {
 }
 
 input:checked + p {
+  text-decoration: line-through;
+}
+input:checked + p + input {
   background: #f9f9f9;
   text-decoration: line-through;
 }
+
 input::placeholder {
   font-family: 'Open Sans', sans-serif;
 }
@@ -60,6 +72,8 @@ p {
 
 .paragraph {
   border: none;
+  max-width: 800px;
+  margin: auto;
 }
 i {
   color: #c24141;
@@ -68,3 +82,101 @@ i {
 /* input[type='text']::placeholder:focus {
   color: transparent;
 } */
+
+/* tape decoration */
+
+.tape {
+  position: relative;
+  /* display: inline-block; */
+  /* display: inline; */
+  zoom: 1;
+  margin: 20px auto 10px;
+}
+.tape1:before,
+.tape2:before,
+.tape2:after,
+.tape3:before,
+.tape3:after,
+.tape4:before,
+.tape4:after {
+  content: '';
+  display: block;
+  width: 100px;
+  height: 30px;
+  position: relative;
+  top: 15px;
+  margin: auto;
+  background: rgba(255, 255, 200, 0.6);
+  -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.4);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.4);
+}
+/* Esto es sólo algo de estilo adicional para la imagen */
+/* .tape img {
+  display: inline-block;
+  *display: inline;
+  zoom: 1;
+  border: 1px solid #ddd;
+  margin: 0 20px;
+  padding: 8px;
+  background: #fff;
+  text-align: center;
+  vertical-align: top;
+  -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.4);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.4);
+} */
+.tape2:before,
+.tape2:after {
+  position: absolute;
+  top: 10px;
+}
+.tape2:before {
+  left: 0;
+  -webkit-transform: rotate(-35deg);
+  -moz-transform: rotate(-35deg);
+  transform: rotate(-35deg);
+}
+.tape2:after {
+  right: 0;
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+.tape3:before,
+.tape3:after {
+  position: absolute;
+  top: 10px;
+}
+.tape3:before {
+  left: 0;
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+.tape3:after {
+  top: inherit;
+  bottom: 10px;
+  right: 0;
+  -webkit-transform: rotate(-35deg);
+  -moz-transform: rotate(-35deg);
+  transform: rotate(-35deg);
+}
+.tape4:before,
+.tape4:after {
+  width: 30px;
+  height: 100px;
+  position: absolute;
+  top: 50%;
+  margin-top: -50px;
+}
+.tape4:before {
+  left: 10px;
+  -webkit-transform: rotate(3deg);
+  -moz-transform: rotate(3deg);
+  transform: rotate(3deg);
+}
+.tape4:after {
+  margin-top: -60px;
+  right: 10px;
+}
