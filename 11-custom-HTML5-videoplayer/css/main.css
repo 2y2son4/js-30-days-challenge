@@ -14,8 +14,7 @@ body {
   display: flex;
   background: #7a419b;
   min-height: 100vh;
-  background: linear-gradient(135deg, #7c1599 0%, #921099 48%, #7e4ae8 100%);
-  background-size: cover;
+  background: url('../assets/bg3.png') no-repeat center / cover fixed;
   align-items: center;
   justify-content: center;
 }
@@ -103,7 +102,7 @@ body {
   width: 50%;
   background: #ffc600;
   flex: 0;
-  flex-basis: 50%;
+  flex-basis: 0;
 }
 
 /* unholy css to style input type="range" */
