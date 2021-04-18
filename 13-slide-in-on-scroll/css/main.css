@@ -1,7 +1,9 @@
+* {
+  font-family: 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+}
 html {
   box-sizing: border-box;
-  background: #ffc600;
-  font-family: 'helvetica neue';
+  background: #fabada;
   font-size: 20px;
   font-weight: 200;
 }
@@ -21,7 +23,8 @@ h1 {
 }
 
 .site-wrap {
-  max-width: 700px;
+  max-width: 800px;
+  min-width: 500px;
   margin: 100px auto;
   background: white;
   padding: 40px;
@@ -40,18 +43,26 @@ h1 {
 
 .slide-in {
   opacity: 0;
-  transition: all 0.5s;
+  transition: all 0.6s ease;
 }
 
 .align-left.slide-in {
-  transform: translateX(-30%) scale(0.95);
+  transform: translateX(-30%) scale(0.8);
 }
 
 .align-right.slide-in {
-  transform: translateX(30%) scale(0.95);
+  transform: translateX(30%) scale(0.8);
 }
 
 .slide-in.active {
   opacity: 1;
   transform: translateX(0%) scale(1);
+}
+
+.img400 {
+  width: 400px;
+}
+
+.img200 {
+  width: 200px;
 }
