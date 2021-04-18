@@ -312,7 +312,7 @@
 
 [Volver al inicio](#no-frameworks,-no-compilers,-no-fuss;)
 
-### **[Day 13: Chiquito's slide in on scroll images](https://2y2son4.github.io/chiquito-shrine)**.
+### **[Day 13: Chiquito's slide in on scroll images](https://2y2son4.github.io/chiquitos-shrine)**.
 
 #### **JS**
 
