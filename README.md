@@ -3,7 +3,7 @@
 ## `No frameworks, no compilers, no fuss;`
 
 - [01](#day-01) | [02](#day-02-clock) | [03](#day-03-css-variables) | [04](#day-04-array-cardio-day-1) | [05](#day-05-flex-panels) | [06](#day-06-ajax-type-ahead) | [07](#day-07-array-cardio-day-2) |
-- [08](#day-08-fun-with-html-canvas) | [09](#day-09-console-treats-and-tricks) | [10](#day-10-checkboxes-task-list) ~~| [11](#day-) | [12](#day-) | [13](#day-) | [14](#day-) |~~
+- [08](#day-08-fun-with-html-canvas) | [09](#day-09-console-treats-and-tricks) | [10](#day-10-checkboxes-task-list) | [11](#day-11-custom-html-video-player) | [12](#day-12-konami-code) | [13](#day-13-chiquitos-slide-in-on-scroll-images) | [14](#day-14-objects-and-arrays-cardio-copy-vs-reference) |
 - ~~[15](#day-) | [16](#day-) | [17](#day-) | [18](#day-) | [19](#day-) | [20](#day-) | [21](#day-) |~~
 - ~~[22](#day-) | [23](#day-) | [24](#day-) | [25](#day-) | [26](#day-) | [27](#day-) | [28](#day-) |~~
 - ~~[29](#day-) | [30](#day-) |~~
@@ -268,5 +268,80 @@
 </p>
 </details>
 </p>
+
+[Volver al inicio](#no-frameworks,-no-compilers,-no-fuss;)
+
+### [Day 11: Custom HTML Video Player](https://2y2son4.github.io/simple-js-html-videoplayer/).
+
+#### **HTML**
+
+- [`<video>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/video)
+
+#### **JS**
+
+- [parseFloat()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/parseFloat)
+- [video.pause | video.play() | ... ](https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement)
+
+<p>
+<details>
+<summary style="color:crimson">Click here to check the <strong>layout</strong>.</summary>
+<p align="left">
+<img src="./assets/11.png">
+</p>
+</details>
+</p>
+
+[Volver al inicio](#no-frameworks,-no-compilers,-no-fuss;)
+
+### **[Day 12: KONAMI Code](https://2y2son4.github.io/konami-code)**.
+
+#### **JS**
+
+- [push()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/push)
+- [splice()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/splice)
+- [cornify_add()](https://github.com/Cornify/Cornify)
+
+<p>
+<details>
+<summary style="color:crimson">Click here to check the <strong>layout</strong>.</summary>
+<p align="left">
+<img src="./assets/12.gif">
+</p>
+</details>
+</p>
+
+[Volver al inicio](#no-frameworks,-no-compilers,-no-fuss;)
+
+### **[Day 13: Chiquito's slide in on scroll images](https://2y2son4.github.io/chiquito-shrine)**.
+
+#### **JS**
+
+- setTimeout()
+- clearTimeout()
+- scrollY
+- offsetTop
+
+<p>
+<details>
+<summary style="color:crimson">Click here to check the <strong>layout</strong>.</summary>
+<p align="left">
+<img src="./assets/13.gif">
+</p>
+</details>
+</p>
+
+[Volver al inicio](#no-frameworks,-no-compilers,-no-fuss;)
+
+### **[Day 14: Objects and arrays cardio (copy vs reference)](https://github.com/2y2son4/js-30-days-challenge/tree/main/14-objects-and-arrays)**.
+
+#### **JS**
+
+- [.slice()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/slice)
+- [.concat()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/concat)
+- [...](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax)
+- [Array.from()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/from)
+- [Object.assign()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/assign)
+- [JSON.parse()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON/parse)
+- [JSON.stringify()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON/stringify)
 
 [Volver al inicio](#no-frameworks,-no-compilers,-no-fuss;)
