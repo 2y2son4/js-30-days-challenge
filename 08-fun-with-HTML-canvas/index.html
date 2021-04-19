@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
   <head>
     <meta charset="utf-8" />
     <meta property="og:title" content="Fun with canvas!" />
@@ -10,29 +10,35 @@
     <meta name="twitter:description" content="Fun with canvas!" />
     <meta name="twitter:image" content="https://raw.githubusercontent.com/2y2son4/fun-with-canvas/main/img/08.png" />
     <meta name="twitter:card" content="summary_large_image" />
-    <link rel="icon" href="../assets/favicon.ico" type="image/x-icon" />
+    <link rel="icon" href="./img/favicon.ico" type="image/x-icon" />
     <script src="https://kit.fontawesome.com/696abec2fc.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./css/main.css" />
-    <title>#:8 Fun with HTML Canvas | #javascript30</title>
+    <title>Fun with HTML Canvas | #javascript30</title>
   </head>
   <body>
-    <button class="reset">Clear canvas</button>
+    <div class="buttons-container">
+      <button class="reset">Clear canvas 🧹</button>
+      <button class="view">View masterpiece 🖼️</button>
+      <button class="download">
+        <a class="link" href="" id="downloader" title="Click to download masterpiece creation in your device =)"
+          >Save masterpiece 💾</a
+        >
+      </button>
+    </div>
+
     <canvas class="canvas" id="draw" width="100" height="100"></canvas>
 
-    <div class="social-btn">
+    <footer class="social-btn">
       <button class="btn btn1">
-        <a
-          class="link"
-          title="Go to repository"
-          target="_blank"
-          href="https://github.com/2y2son4/js-30-days-challenge/tree/main/08-fun-with-HTML-canvas"
+        <i class="fab fa-github"></i>
+        <a class="link" title="Go to repository" target="_blank" href="https://github.com/2y2son4/fun-with-canvas"
           >GitHub</a
         >
       </button>
       <button class="btn btn2">
         <a class="link" title="Go to challenge page" target="_blank" href="https://javascript30.com/">#javascript30</a>
       </button>
-    </div>
+    </footer>
     <script src="./js/main.js"></script>
   </body>
 </html>

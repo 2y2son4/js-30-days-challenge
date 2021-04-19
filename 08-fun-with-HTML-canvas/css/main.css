@@ -5,26 +5,35 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: salmon;
+  background-color: #fabada;
   height: 100vh;
 }
 
-.reset {
+.reset,
+.view,
+.download,
+.btn {
+  font-weight: bold;
+  letter-spacing: 2px;
   cursor: pointer;
-  color: salmon;
-  width: 120px;
+  color: #fabada;
+  width: auto;
+  padding: 10px 15px;
   border-radius: 10px;
-  border: salmon 3px solid;
-  background-color: #f1f2b5;
+  border: #fabada 3px solid;
+  background-color: #18336b;
   transition: all 0.4s ease;
   font-size: 18px;
   align-self: center;
   margin: 10px;
 }
-.reset:hover {
-  color: #f1f2b5;
-  border: #f1f2b5 3px solid;
-  background-color: salmon;
+.reset:hover,
+.view:hover,
+.download:hover,
+.btn:hover {
+  color: #18336b;
+  border: #18336b 3px solid;
+  background-color: #fabada;
 }
 
 .canvas {
@@ -34,8 +43,9 @@ body {
   cursor: url(../img/cursor.cur), auto;
   width: 95%;
   height: 80%;
-  border: salmon 10px double;
+  border: #fabada 10px double;
   border-radius: 10px;
+  opacity: 0.8;
 }
 .social-btn {
   width: 80%;
@@ -44,20 +54,13 @@ body {
   justify-content: space-around;
 }
 
-.btn {
-  border: 3px #f1f2b5 solid;
-  border-radius: 10px;
-  background: #f1f2b5;
-  transition: all 0.4s ease;
-}
-.btn:hover {
-  border: 3px #f1f2b5 solid;
-  box-shadow: 0 0 8px #f1f2b5;
-  background: #f1f2b5;
-}
-
 .link {
   text-decoration: none;
   font-size: 18px;
-  color: salmon;
+  color: #fabada;
+}
+
+.link:hover {
+  color: #18336b;
+  padding: 15px auto;
 }
