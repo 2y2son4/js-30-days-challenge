@@ -218,7 +218,7 @@
 </details>
 </p>
 
-[Volver al inicio](#no-frameworks-no-compilers-no-fuss;)
+[Volver al inicio](#wes-Bos-30-days-vanilla-js-challenge)
 
 ### **[Day 09: Console treats and tricks](https://github.com/2y2son4/js-30-days-challenge/tree/main/09-dev-tools-tricks)**.
 
