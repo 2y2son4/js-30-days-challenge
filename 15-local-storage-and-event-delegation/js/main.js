@@ -2,6 +2,8 @@
 
 const addItems = document.querySelector('.add-items');
 const itemsList = document.querySelector('.plates');
+
+// retrieve from LS || create an empty array
 const items = JSON.parse(localStorage.getItem('items')) || [];
 
 function addItem(ev) {
@@ -36,6 +38,24 @@ function populateList(plates = [], platesList) {
   platesList.innerHTML = list;
 }
 
+// event delegation function
+function toggleState(ev) {
+  // event delegation
+  if (!ev.target.matches('input')) return; //skip this unless it's an input
+  const element = ev.target;
+  const index = element.dataset.index;
+
+  // toggle state
+  items[index].done = !items[index].done;
+
+  // store in LS
+  JSON.parse(localStorage.getItem('items'));
+
+  // re-paint list
+  populateList(items, itemsList);
+}
+
 addItems.addEventListener('submit', addItem);
+itemsList.addEventListener('click', toggleState);
 
 populateList(items, itemsList);
