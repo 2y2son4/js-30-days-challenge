@@ -37,7 +37,7 @@
 </details>
 </p>
 
-[Volver al inicio](#no-frameworks-no-compilers-no-fuss;)
+[Volver al inicio](#wes-Bos-30-days-vanilla-js-challenge).
 
 ### **[Day 02: Clock](https://2y2son4.github.io/clock-day02)**.
 
@@ -67,7 +67,7 @@
 </details>
 </p>
 
-[Volver al inicio](#no-frameworks-no-compilers-no-fuss;)
+[Volver al inicio](#wes-Bos-30-days-vanilla-js-challenge).
 
 ### **[Day 03: CSS variables](https://2y2son4.github.io/css-variables-day03)**.
 
@@ -93,7 +93,7 @@
 </details>
 </p>
 
-[Volver al inicio](#no-frameworks-no-compilers-no-fuss;)
+[Volver al inicio](#wes-Bos-30-days-vanilla-js-challenge).
 
 ### **[Day 04: Array Cardio day 1](https://github.com/2y2son4/js-30-days-challenge/tree/main/04-array-cardio)**.
 
@@ -118,7 +118,7 @@
 </details>
 </p>
 
-[Volver al inicio](#no-frameworks-no-compilers-no-fuss;)
+[Volver al inicio](#wes-Bos-30-days-vanilla-js-challenge).
 
 ### **[Day 05: Flex panels](https://2y2son4.github.io/flex-portfolio)**.
 
@@ -144,7 +144,7 @@
 </details>
 </p>
 
-[Volver al inicio](#no-frameworks-no-compilers-no-fuss;)
+[Volver al inicio](#wes-Bos-30-days-vanilla-js-challenge).
 
 ### **[Day 06: Ajax type ahead](https://2y2son4.github.io/ajax-exercise-day06/)**.
 
@@ -166,7 +166,7 @@
 </details>
 </p>
 
-[Volver al inicio](#no-frameworks-no-compilers-no-fuss;)
+[Volver al inicio](#wes-Bos-30-days-vanilla-js-challenge).
 
 ### **[Day 07: Array Cardio day 2](https://github.com/2y2son4/js-30-days-challenge/tree/main/07-array-cardio-2)**.
 
@@ -188,7 +188,7 @@
 </details>
 </p>
 
-[Volver al inicio](#no-frameworks-no-compilers-no-fuss;)
+[Volver al inicio](#wes-Bos-30-days-vanilla-js-challenge).
 
 ### **[Day 08: Fun with HTML canvas](https://2y2son4.github.io/fun-with-canvas/)**.
 
@@ -248,7 +248,7 @@
 </details>
 </p>
 
-[Volver al inicio](#no-frameworks-no-compilers-no-fuss;)
+[Volver al inicio](#wes-Bos-30-days-vanilla-js-challenge).
 
 ### **[Day 10: Checkboxes task list](https://2y2son4.github.io/customizable-task-list/)**.
 
@@ -269,7 +269,7 @@
 </details>
 </p>
 
-[Volver al inicio](#no-frameworks-no-compilers-no-fuss;)
+[Volver al inicio](#wes-Bos-30-days-vanilla-js-challenge).
 
 ### [Day 11: Custom HTML Video Player](https://2y2son4.github.io/simple-js-html-videoplayer/).
 
@@ -291,7 +291,7 @@
 </details>
 </p>
 
-[Volver al inicio](#no-frameworks-no-compilers-no-fuss;)
+[Volver al inicio](#wes-Bos-30-days-vanilla-js-challenge).
 
 ### **[Day 12: KONAMI Code](https://2y2son4.github.io/konami-code)**.
 
@@ -310,7 +310,7 @@
 </details>
 </p>
 
-[Volver al inicio](#no-frameworks-no-compilers-no-fuss;)
+[Volver al inicio](#wes-Bos-30-days-vanilla-js-challenge).
 
 ### **[Day 13: Chiquito's slide in on scroll images](https://2y2son4.github.io/chiquitos-shrine)**.
 
@@ -330,7 +330,7 @@
 </details>
 </p>
 
-[Volver al inicio](#no-frameworks-no-compilers-no-fuss;)
+[Volver al inicio](#wes-Bos-30-days-vanilla-js-challenge).
 
 ### **[Day 14: Objects and arrays cardio (copy vs reference)](https://github.com/2y2son4/js-30-days-challenge/tree/main/14-objects-and-arrays)**.
 
@@ -344,4 +344,4 @@
 - [JSON.parse()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON/parse)
 - [JSON.stringify()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON/stringify)
 
-[Volver al inicio](#no-frameworks-no-compilers-no-fuss;)
+[Volver al inicio](#wes-Bos-30-days-vanilla-js-challenge).
