@@ -2,7 +2,7 @@
 
 const hero = document.querySelector('.hero');
 const text = document.querySelector('h1');
-const walk = 200; // 100px
+const walk = 50; // px
 
 function shadow(ev) {
   const { offsetWidth: width, offsetHeight: height } = hero;
@@ -18,10 +18,10 @@ function shadow(ev) {
   const yWalk = Math.round((y / width) * walk - walk / 2);
 
   text.style.textShadow = `
-    ${xWalk}px ${yWalk}px 0 rgba(255,0,255,0.7),
-    ${xWalk * -1}px ${yWalk}px 0 rgba(0,255,255,0.7),
-    ${yWalk}px ${xWalk * -1}px 0 rgba(0,255,0,0.7),
-    ${yWalk * -1}px ${xWalk}px 0 rgba(0,0,255,0.7)    
+    ${xWalk}px ${yWalk}px 0 #8FD129,
+    ${xWalk * -1}px ${yWalk}px 0 #5A7038,
+    ${yWalk}px ${xWalk * -1}px 0 #80BD26,
+    ${yWalk * -1}px ${xWalk}px 0 #C2F279   
   `;
 }
 
