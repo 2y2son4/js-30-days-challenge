@@ -26,7 +26,7 @@ function addItem(ev) {
 
 // isolate function to add plates to list
 function populateList(plates = [], platesList) {
-  let list = plates
+  platesList.innerHTML = plates
     .map((plate, i) => {
       return `
       <li>
@@ -35,7 +35,6 @@ function populateList(plates = [], platesList) {
       </li>`;
     })
     .join('');
-  platesList.innerHTML = list;
 }
 
 // event delegation function
