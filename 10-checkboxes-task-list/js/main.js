@@ -77,7 +77,9 @@ function updateAllInputs() {
       taskElement.innerHTML = newValue;
     }
   }
+
   saveInLocalStorage();
+  getFromLocalStorage();
 }
 
 const textInputs = document.querySelectorAll('.add');
@@ -141,7 +143,7 @@ function saveInLocalStorage() {
 }
 
 function getFromLocalStorage() {
-  const userTaskInString = localStorage.getItem('userTaskInString');
+  const userTaskInString = localStorage.getItem('userTask');
   if (userTaskInString !== null) {
     const userTask = JSON.parse(userTaskInString);
     document.querySelector('.add1').value = userTask.task1;
@@ -155,7 +157,9 @@ function getFromLocalStorage() {
     document.querySelector('.add9').value = userTask.task9;
   }
 
-  updateAllInputs();
+  // updateAllInputs();
 }
+updateAllInputs();
 getFromLocalStorage();
-// updateAllInputs();
+
+// saveInLocalStorage();
