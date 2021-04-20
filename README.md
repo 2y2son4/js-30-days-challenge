@@ -4,7 +4,7 @@
 
 - [01](#day-01) | [02](#day-02-clock) | [03](#day-03-css-variables) | [04](#day-04-array-cardio-day-1) | [05](#day-05-flex-panels) | [06](#day-06-ajax-type-ahead) | [07](#day-07-array-cardio-day-2) |
 - [08](#day-08-fun-with-html-canvas) | [09](#day-09-console-treats-and-tricks) | [10](#day-10-checkboxes-task-list) | [11](#day-11-custom-html-video-player) | [12](#day-12-konami-code) | [13](#day-13-chiquitos-slide-in-on-scroll-images) | [14](#day-14-objects-and-arrays-cardio-copy-vs-reference) |
-- ~~[15](#day-) | [16](#day-) | [17](#day-) | [18](#day-) | [19](#day-) | [20](#day-) | [21](#day-) |~~
+- [15](#day-) | ~~[16](#day-) | [17](#day-) | [18](#day-) | [19](#day-) | [20](#day-) | [21](#day-) |~~
 - ~~[22](#day-) | [23](#day-) | [24](#day-) | [25](#day-) | [26](#day-) | [27](#day-) | [28](#day-) |~~
 - ~~[29](#day-) | [30](#day-) |~~
 
@@ -343,5 +343,26 @@
 - [Object.assign()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/assign)
 - [JSON.parse()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON/parse)
 - [JSON.stringify()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON/stringify)
+
+[Volver al inicio](#wes-Bos-30-days-vanilla-js-challenge).
+
+### [Day 15: Local storage and event delegation](https://github.com/2y2son4/js-30-days-challenge/tree/main/15-local-storage-and-event-delegation).
+
+#### **JS**
+
+- [localStorage.setItem()](https://developer.mozilla.org/en-US/docs/Web/API/Storage/setItem)
+- [localStorage.getItem()](https://developer.mozilla.org/en-US/docs/Web/API/Storage/getItem)
+- [JSON.stringify()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON/stringify)
+- [JSON.parse()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON/parse)
+- [event.preventDefault()](https://developer.mozilla.org/en-US/docs/Web/API/Event/preventDefault)
+
+<p>
+<details>
+<summary style="color:crimson">Click here to check the <strong>layout</strong>.</summary>
+<p align="left">
+<img src="./assets/15.gif">
+</p>
+</details>
+</p>
 
 [Volver al inicio](#wes-Bos-30-days-vanilla-js-challenge).
