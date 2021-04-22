@@ -22,7 +22,7 @@ body {
   width: 500px;
   padding: 0;
   box-shadow: 0 0 0 20px rgba(0, 0, 0, 0.05);
-  font-family: sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 #series li {
