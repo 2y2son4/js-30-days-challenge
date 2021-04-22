@@ -13,18 +13,47 @@ html {
 *:after {
   box-sizing: inherit;
 }
-
-.title {
-  color: #26002d;
-  margin: 0 50px;
-  padding-top: 50px;
-  font-family: 'Bubblegum Sans', sans-serif;
+.body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.photobooth {
-  background: #36213a;
+.header {
+  margin: 30px auto;
   max-width: 1024px;
-  margin: 200px auto 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 100px 100px;
+}
+.title {
+  color: #26002d;
+  font-family: 'Monoton', sans-serif;
+  font-weight: 100;
+  font-size: 50px;
+  grid-column: 1 / 2;
+  align-self: start;
+}
+.subtitle {
+  font-family: 'Monoton', sans-serif;
+  font-weight: 100;
+  font-size: 30px;
+  grid-column: 1 / 2;
+  align-self: end;
+}
+.player {
+  height: 200px;
+  border-radius: 20px;
+  border: #26002d 10px groove;
+  grid-column: 2 / 3;
+  grid-row: 1 / 3;
+  align-self: center;
+  justify-self: end;
+}
+.photobooth {
+  background: #26002d;
+  max-width: 1024px;
+  margin: 20px auto;
   padding: 2rem auto;
   border-radius: 2px;
   display: flex;
@@ -40,20 +69,10 @@ html {
 }
 
 .photo {
-  width: 70%;
   float: left;
   margin: 10px 20px;
   border-radius: 20px;
-  border: #fa2d56 10px solid;
-}
-
-.player {
-  position: absolute;
-  top: 50px;
-  right: 50px;
-  width: 260px;
-  border-radius: 20px;
-  border: #26002d 10px groove;
+  border: #fa2d56 10px groove;
 }
 
 .rgb {
@@ -86,6 +105,10 @@ html {
   transform: rotate(12deg);
 }
 
+.social-btn {
+  display: flex;
+  justify-content: space-around;
+}
 .btn {
   font-weight: bold;
   letter-spacing: 2px;
@@ -106,12 +129,6 @@ html {
   color: #26002d;
   border: #26002d 3px solid;
   background-color: #fa2d56;
-}
-.social-btn {
-  width: 80%;
-  margin: 20px auto;
-  display: flex;
-  justify-content: space-around;
 }
 
 .link {

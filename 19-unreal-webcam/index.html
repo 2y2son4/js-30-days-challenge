@@ -5,12 +5,16 @@
     <link rel="icon" href="../assets/favicon.ico" type="image/x-icon" />
     <script src="https://kit.fontawesome.com/696abec2fc.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link href="https://fonts.googleapis.com/css2?family=Bubblegum+Sans&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Monoton&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="./css/main.css" />
     <title>#19: Fun, fun, fun with a webcam | #javascript30</title>
   </head>
   <body>
-    <header class="header"><h1 class="title">Photobooth - 📸 FUNctastic</h1></header>
+    <header class="header">
+      <h1 class="title">Photobooth</h1>
+      <video class="player"></video>
+      <h2 class="subtitle">📸 FUNctastic</h2>
+    </header>
     <main class="photobooth">
       <div class="controls">
         <button onClick="takePhoto()" class="btn"><i class="fas fa-camera-retro"></i> Take Photo</button>
@@ -33,7 +37,6 @@
       </div>
 
       <canvas class="photo"></canvas>
-      <video class="player"></video>
     </main>
     <div class="strip"></div>
     <footer class="social-btn">
