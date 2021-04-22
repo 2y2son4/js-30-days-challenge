@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="../assets/favicon.ico" type="image/x-icon" />
+    <script src="https://kit.fontawesome.com/696abec2fc.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./css/main.css" />
+    <title>#19: Fun, fun, fun with a webcam | #javascript30</title>
+  </head>
+  <body>
+    <main class="photobooth">
+      <div class="controls">
+        <button onClick="takePhoto()">Take Photo</button>
+        <!--       <div class="rgb">
+          <label for="rmin">Red Min:</label>
+          <input type="range" min=0 max=255 name="rmin">
+          <label for="rmax">Red Max:</label>
+          <input type="range" min=0 max=255 name="rmax">
+  
+          <br>
+  
+          <label for="gmin">Green Min:</label>
+          <input type="range" min=0 max=255 name="gmin">
+          <label for="gmax">Green Max:</label>
+          <input type="range" min=0 max=255 name="gmax">
+  
+          <br>
+  
+          <label for="bmin">Blue Min:</label>
+          <input type="range" min=0 max=255 name="bmin">
+          <label for="bmax">Blue Max:</label>
+          <input type="range" min=0 max=255 name="bmax">
+        </div> -->
+      </div>
+
+      <canvas class="photo"></canvas>
+      <video class="player"></video>
+      <div class="strip"></div>
+    </main>
+
+    <audio class="snap" src="./assets/snap.mp3" hidden></audio>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
