@@ -1,6 +1,8 @@
+* {
+  font-family: 'Roboto', sans-serif;
+}
 body {
   margin: 0;
-  font-family: 'Orbitron', sans-serif;
   background: url('../img/bg.svg') center;
   background-size: cover;
   background-color: black;
@@ -13,6 +15,8 @@ body {
 .title {
   color: bisque;
   text-align: center;
+  font-family: 'Orbitron', sans-serif;
+  margin: 50px auto;
 }
 
 #series {
@@ -22,7 +26,6 @@ body {
   width: 500px;
   padding: 0;
   box-shadow: 0 0 0 20px rgba(0, 0, 0, 0.05);
-  font-family: 'Roboto', sans-serif;
 }
 
 #series li {
@@ -34,7 +37,41 @@ body {
   border-bottom: 0;
 }
 
-a {
-  color: #ffc600;
+.btn {
+  font-weight: bold;
+  letter-spacing: 2px;
+  cursor: pointer;
+  color: #fa2d56;
+  width: auto;
+  padding: 10px 15px;
+  border-radius: 10px;
+  border: #fa2d56 3px solid;
+  background-color: #26002d;
+  transition: all 0.4s ease;
+  font-size: 18px;
+  align-self: center;
+  margin: 10px;
+}
+
+.btn:hover {
+  color: #26002d;
+  border: #26002d 3px solid;
+  background-color: #fa2d56;
+}
+.social-btn {
+  width: 80%;
+  margin: 20px auto;
+  display: flex;
+  justify-content: space-around;
+}
+
+.link {
   text-decoration: none;
+  font-size: 18px;
+  color: #fa2d56;
+}
+
+.link:hover {
+  color: #26002d;
+  padding: 15px auto;
 }
