@@ -8,6 +8,7 @@ body {
   background-color: black;
   color: bisque;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   min-height: 100vh;
@@ -23,4 +24,53 @@ body {
 .list-element {
   list-style: none;
   margin: 10px;
+}
+
+.total-time {
+  text-align: center;
+  font-size: 24px;
+}
+
+.bold {
+  font-weight: bold;
+  color: #ce9d61;
+}
+
+.btn {
+  font-weight: bold;
+  letter-spacing: 2px;
+  cursor: pointer;
+  color: #fa2d56;
+  width: auto;
+  padding: 10px 15px;
+  border-radius: 10px;
+  border: #fa2d56 3px solid;
+  background-color: #26002d;
+  transition: all 0.4s ease;
+  font-size: 18px;
+  align-self: center;
+  margin: 10px;
+}
+
+.btn:hover {
+  color: #26002d;
+  border: #26002d 3px solid;
+  background-color: #fa2d56;
+}
+.social-btn {
+  width: 80%;
+  margin: 20px auto;
+  display: flex;
+  justify-content: space-around;
+}
+
+.link {
+  text-decoration: none;
+  font-size: 18px;
+  color: #fa2d56;
+}
+
+.link:hover {
+  color: #26002d;
+  padding: 15px auto;
 }
