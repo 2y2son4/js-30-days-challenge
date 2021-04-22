@@ -1,15 +1,16 @@
 body {
   margin: 0;
   font-family: sans-serif;
-  background: url('https://source.unsplash.com/nDqA4d5NL0k/2000x2000');
+  background: url('../img/bg.svg') center;
   background-size: cover;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   min-height: 100vh;
 }
 
-#bands {
+#series {
   list-style: inside square;
   font-size: 20px;
   background: white;
@@ -18,12 +19,12 @@ body {
   box-shadow: 0 0 0 20px rgba(0, 0, 0, 0.05);
 }
 
-#bands li {
+#series li {
   border-bottom: 1px solid #efefef;
   padding: 20px;
 }
 
-#bands li:last-child {
+#series li:last-child {
   border-bottom: 0;
 }
 
