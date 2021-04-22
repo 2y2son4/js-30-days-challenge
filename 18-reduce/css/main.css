@@ -1,0 +1,26 @@
+* {
+  font-family: 'Roboto', sans-serif;
+}
+body {
+  margin: 0;
+  background: url('../img/bg.svg') center;
+  background-size: cover;
+  background-color: black;
+  color: bisque;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.videos {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.list-element {
+  list-style: none;
+  margin: 10px;
+}
