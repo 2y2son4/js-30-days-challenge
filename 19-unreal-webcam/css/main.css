@@ -8,11 +8,6 @@ html {
   margin: 0;
 }
 
-*,
-*:before,
-*:after {
-  box-sizing: inherit;
-}
 .body {
   display: flex;
   justify-content: center;
@@ -116,6 +111,7 @@ label {
 .buttons {
   display: flex;
   flex-direction: column;
+  margin: 10px;
 }
 
 .social-btn {

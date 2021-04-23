@@ -18,7 +18,7 @@
     <main class="photobooth">
       <div class="controls">
         <section class="buttons">
-          <div class="green">Effects</div>
+          <div class="line">Effects</div>
           <button onClick="redEffectBoolean = !redEffectBoolean" class="btn red">Red Effect</button>
           <button onClick="rgbSplitBoolean = !rgbSplitBoolean" class="btn split">Rainbow Effect</button>
         </section>
@@ -26,7 +26,7 @@
           <label class="line" for="alpha">Alpha Level</label>
           <input type="number" value="1" min="0.05" max="1" step="0.05" name="alpha" />
         </section>
-        <section class="rgb">
+        <!-- <section class="rgb">
           <div class="line">Green screen</div>
           <label for="rmin">Red Min:</label>
           <input type="range" min="0" max="255" name="rmin" />
@@ -47,9 +47,10 @@
           <label for="bmax">Blue Max:</label>
           <input type="range" min="0" max="255" name="bmax" />
           <div class="line"></div>
+        </section> -->
+        <section class="buttons take">
+          <button onClick="takePhoto()" class="btn"><i class="fas fa-camera-retro"></i> Take Photo</button>
         </section>
-
-        <button onClick="takePhoto()" class="btn"><i class="fas fa-camera-retro"></i> Take Photo</button>
       </div>
 
       <canvas class="photo"></canvas>
