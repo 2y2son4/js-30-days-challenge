@@ -17,17 +17,30 @@
     </header>
     <main class="photobooth">
       <div class="controls">
-        <button onClick="takePhoto()" class="btn"><i class="fas fa-camera-retro"></i> Take Photo</button>
+        <section class="buttons">
+          <a onClick="redEffectBoolean = !redEffectBoolean" class="btn">Red Effect</a>
+          <a onClick="rgbSplitBoolean = !rgbSplitBoolean" class="btn"> RGB Split</a>
+          <a onClick="takePhoto()" class="btn"><i class="fas fa-camera-retro"></i> Take Photo</a>
+          <!-- <button onClick="takePhoto()" class="btn"><i class="fas fa-camera-retro"></i> Take Photo</button> -->
+        </section>
+        <section class="rgb alphaContainer">
+          <label for="alpha">Alpha Level</label>
+          <input type="number" value="1" min="0.05" max="1" step="0.05" name="alpha" />
+        </section>
         <section class="rgb">
           <label for="rmin">Red Min:</label>
           <input type="range" min="0" max="255" name="rmin" />
           <label for="rmax">Red Max:</label>
           <input type="range" min="0" max="255" name="rmax" />
 
+          <br />
+
           <label for="gmin">Green Min:</label>
           <input type="range" min="0" max="255" name="gmin" />
           <label for="gmax">Green Max:</label>
           <input type="range" min="0" max="255" name="gmax" />
+
+          <br />
 
           <label for="bmin">Blue Min:</label>
           <input type="range" min="0" max="255" name="bmin" />

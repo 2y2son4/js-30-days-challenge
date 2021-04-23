@@ -113,6 +113,51 @@ html {
 label {
   color: #fa2d56;
 }
+.buttons {
+  display: flex;
+  flex-direction: column;
+}
+
+/* .action-button {
+  height: 50px;
+  padding: 10px;
+  margin: 5px;
+  border-radius: 10px;
+  font-size: 20px;
+  color: #fff;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.blue {
+  background-color: #3498db;
+  border-bottom: 5px solid #2980b9;
+  text-shadow: 0px -2px #2980b9;
+}
+
+.red {
+  background-color: #e74c3c;
+  border-bottom: 5px solid #bd3e31;
+  text-shadow: 0px -2px #bd3e31;
+}
+
+.green {
+  background-color: #82bf56;
+  border-bottom: 5px solid #669644;
+  text-shadow: 0px -2px #669644;
+}
+
+.yellow {
+  background-color: #f2cf66;
+  border-bottom: 5px solid #d1b358;
+  text-shadow: 0px -2px #d1b358;
+}
+
+.action-button:active {
+  transform: translate(0px, 5px);
+  -webkit-transform: translate(0px, 5px);
+  border-bottom: 1px solid;
+} */
 
 .social-btn {
   margin-top: 30px;

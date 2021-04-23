@@ -4,6 +4,11 @@ const ctx = canvas.getContext('2d');
 const strip = document.querySelector('.strip');
 const snap = document.querySelector('.snap');
 
+const alphaNumber = document.querySelector('.alphaContainer input');
+
+let redEffectBoolean = false;
+let rgbSplitBoolean = false;
+
 function getVideo() {
   navigator.mediaDevices
     .getUserMedia({ video: true, audio: false })
@@ -27,11 +32,18 @@ function paintToCanvas() {
     // take the pixels out
     let pixels = ctx.getImageData(0, 0, width, height);
     // mess with them
-    // pixels = redEffect(pixels); // red Effect
-    pixels = rgbSplit(pixels); // on drugs effect
-    ctx.globalAlpha = 0.1;
+    // red Effect
+    if (redEffectBoolean) {
+      pixels = redEffect(pixels);
+    }
+    // on drugs effect
+    if (rgbSplitBoolean) {
+      pixels = rgbSplit(pixels);
+    }
+    ctx.globalAlpha = alphaNumber.value;
 
-    // pixels = greenScreen(pixels);
+    pixels = greenScreen(pixels);
+
     // put them back
     ctx.putImageData(pixels, 0, 0);
   }, 16);
@@ -53,9 +65,9 @@ function takePhoto() {
 
 function redEffect(pixels) {
   for (let i = 0; i < pixels.data.length; i += 4) {
-    pixels.data[i + 0] = pixels.data[i + 0] + 100; // red
-    pixels.data[i + 1] = pixels.data[i + 1] - 50; // green
-    pixels.data[i + 2] = pixels.data[i + 2] * 0.5; // blue
+    pixels.data[i + 0] = pixels.data[i + 0] + 200; // Red
+    pixels.data[i + 1] = pixels.data[i + 1] - 50; // Green
+    pixels.data[i + 2] = pixels.data[i + 2] * 0.5; // Blue
   }
   return pixels;
 }
