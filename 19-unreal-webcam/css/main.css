@@ -118,11 +118,6 @@ label {
   flex-direction: column;
 }
 
-.action-button:active {
-  transform: translate(0px, 5px);
-  -webkit-transform: translate(0px, 5px);
-  border-bottom: 1px solid;
-}
 .social-btn {
   margin-top: 30px;
   display: flex;
@@ -133,7 +128,7 @@ label {
   letter-spacing: 2px;
   cursor: pointer;
   color: #fa2d56;
-  width: auto;
+  width: 200px;
   padding: 10px 15px;
   border-radius: 10px;
   border: #fa2d56 3px solid;
@@ -175,15 +170,11 @@ label {
     auto;
 }
 
-.split:active {
-  background: -webkit-linear-gradient(left, red, orange, yellow, green, cyan, blue, violet);
-  background: -o-linear-gradient(left, red, orange, yellow, green, cyan, blue, violet);
-  background: -moz-linear-gradient(left, red, orange, yellow, green, cyan, blue, violet);
-  background: linear-gradient(left, red, orange, yellow, green, cyan, blue, violet);
-}
-
-.green {
+.line {
   color: #fa2d56;
+  margin-bottom: 10px;
+  padding-top: 5px;
+  border-bottom: #fa2d56 1px solid;
 }
 input[type='range'] {
   cursor: url("data:image/svg+xml;utf8, <svg xmlns='http://www.w3.org/2000/svg' width='32' height='32' style='font-size: 24px'><text y='20'>💚</text></svg>"),
