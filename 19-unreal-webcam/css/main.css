@@ -156,6 +156,16 @@ label {
   cursor: url("data:image/svg+xml;utf8, <svg xmlns='http://www.w3.org/2000/svg' width='32' height='32' style='font-size: 24px'><text y='20'>❤️</text></svg>"),
     auto;
 }
+.green:hover {
+  background-color: #4ffa2d;
+  cursor: url("data:image/svg+xml;utf8, <svg xmlns='http://www.w3.org/2000/svg' width='32' height='32' style='font-size: 24px'><text y='20'>💚</text></svg>"),
+    auto;
+}
+.blue:hover {
+  background-color: #2d53fa;
+  cursor: url("data:image/svg+xml;utf8, <svg xmlns='http://www.w3.org/2000/svg' width='32' height='32' style='font-size: 24px'><text y='20'>💙</text></svg>"),
+    auto;
+}
 
 .split:hover {
   background: -webkit-linear-gradient(left, red, orange, yellow, green, cyan, blue, violet);
