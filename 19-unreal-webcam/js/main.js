@@ -3,6 +3,7 @@ const canvas = document.querySelector('.photo');
 const ctx = canvas.getContext('2d');
 const strip = document.querySelector('.strip');
 const snap = document.querySelector('.snap');
+const tip = document.querySelector('.tip');
 
 const alphaNumber = document.querySelector('.alphaContainer input');
 
@@ -61,6 +62,7 @@ function takePhoto() {
   link.setAttribute('download', 'sexy');
   link.innerHTML = `<img src="${data}" alt="Sexy person" />`;
   strip.insertBefore(link, strip.firstChild);
+  tip.innerHTML = '<i class="fas fa-long-arrow-alt-left"></i> Click on picture to <i class="far fa-save"></i>';
 }
 
 function redEffect(pixels) {
