@@ -24,7 +24,8 @@ html {
   max-width: 1024px;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 100px 100px;
+  grid-template-rows: 70px 70px;
+  padding-left: 10px;
 }
 .title {
   color: #26002d;
@@ -42,7 +43,7 @@ html {
   align-self: end;
 }
 .player {
-  height: 200px;
+  height: 140px;
   border-radius: 20px;
   border: #26002d 10px groove;
   grid-column: 2 / 3;
@@ -59,13 +60,9 @@ html {
   display: flex;
   justify-content: center;
   align-items: center;
+  border: rgba(255, 255, 255, 0) 10px solid;
   border-radius: 20px;
-}
-
-.photobooth:after {
-  content: '';
-  display: block;
-  clear: both;
+  padding: 0 10px;
 }
 
 .photo {
@@ -73,6 +70,7 @@ html {
   margin: 10px 20px;
   border-radius: 20px;
   border: #fa2d56 10px groove;
+  height: 500px;
 }
 
 .rgb {
@@ -81,12 +79,19 @@ html {
   margin: 10px;
 }
 
+.tip {
+  padding-left: 10px;
+}
+.strip {
+  max-width: 1024px;
+  margin: 0 auto;
+}
 .strip img {
   width: 100px;
   overflow-x: scroll;
   padding: 0.8rem 0.8rem 2.5rem 0.8rem;
   box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
-  background: white;
+  background: #f1c9d1;
 }
 
 .strip a:nth-child(5n + 1) img {
@@ -105,7 +110,12 @@ html {
   transform: rotate(12deg);
 }
 
+label {
+  color: #fa2d56;
+}
+
 .social-btn {
+  margin-top: 30px;
   display: flex;
   justify-content: space-around;
 }
@@ -123,6 +133,7 @@ html {
   font-size: 18px;
   align-self: center;
   margin: 10px;
+  cursor: 📸;
 }
 
 .btn:hover {
