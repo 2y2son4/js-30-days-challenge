@@ -8,6 +8,8 @@ const tip = document.querySelector('.tip');
 const alphaNumber = document.querySelector('.alphaContainer input');
 
 let redEffectBoolean = false;
+let greenEffectBoolean = false;
+let blueEffectBoolean = false;
 let rgbSplitBoolean = false;
 
 function getVideo() {
@@ -33,10 +35,22 @@ function paintToCanvas() {
     // take the pixels out
     let pixels = ctx.getImageData(0, 0, width, height);
     // mess with them
+
     // red Effect
     if (redEffectBoolean) {
       pixels = redEffect(pixels);
     }
+
+    // green Effect
+    if (greenEffectBoolean) {
+      pixels = greenEffect(pixels);
+    }
+
+    // blue Effect
+    if (blueEffectBoolean) {
+      pixels = blueEffect(pixels);
+    }
+
     // on drugs effect
     if (rgbSplitBoolean) {
       pixels = rgbSplit(pixels);
@@ -70,6 +84,24 @@ function redEffect(pixels) {
     pixels.data[i + 0] = pixels.data[i + 0] + 200; // Red
     pixels.data[i + 1] = pixels.data[i + 1] - 50; // Green
     pixels.data[i + 2] = pixels.data[i + 2] * 0.5; // Blue
+  }
+  return pixels;
+}
+
+function greenEffect(pixels) {
+  for (let i = 0; i < pixels.data.length; i += 4) {
+    pixels.data[i + 0] = pixels.data[i + 0] - 50; // Red
+    pixels.data[i + 1] = pixels.data[i + 1] + 100; // Green
+    pixels.data[i + 2] = pixels.data[i + 2] * 0.2; // Blue
+  }
+  return pixels;
+}
+
+function blueEffect(pixels) {
+  for (let i = 0; i < pixels.data.length; i += 4) {
+    pixels.data[i + 0] = pixels.data[i + 0] * 0.5; // Red
+    pixels.data[i + 1] = pixels.data[i + 1] - 150; // Green
+    pixels.data[i + 2] = pixels.data[i + 2] + 50; // Blue
   }
   return pixels;
 }
