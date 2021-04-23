@@ -118,47 +118,11 @@ label {
   flex-direction: column;
 }
 
-/* .action-button {
-  height: 50px;
-  padding: 10px;
-  margin: 5px;
-  border-radius: 10px;
-  font-size: 20px;
-  color: #fff;
-  cursor: pointer;
-  text-decoration: none;
-}
-
-.blue {
-  background-color: #3498db;
-  border-bottom: 5px solid #2980b9;
-  text-shadow: 0px -2px #2980b9;
-}
-
-.red {
-  background-color: #e74c3c;
-  border-bottom: 5px solid #bd3e31;
-  text-shadow: 0px -2px #bd3e31;
-}
-
-.green {
-  background-color: #82bf56;
-  border-bottom: 5px solid #669644;
-  text-shadow: 0px -2px #669644;
-}
-
-.yellow {
-  background-color: #f2cf66;
-  border-bottom: 5px solid #d1b358;
-  text-shadow: 0px -2px #d1b358;
-}
-
 .action-button:active {
   transform: translate(0px, 5px);
   -webkit-transform: translate(0px, 5px);
   border-bottom: 1px solid;
-} */
-
+}
 .social-btn {
   margin-top: 30px;
   display: flex;
@@ -178,22 +142,50 @@ label {
   font-size: 18px;
   align-self: center;
   margin: 10px;
-  cursor: 📸;
+  text-align: center;
+  cursor: url("data:image/svg+xml;utf8, <svg xmlns='http://www.w3.org/2000/svg' width='32' height='32' style='font-size: 24px'><text y='20'>📸</text></svg>"),
+    auto;
 }
-
 .btn:hover {
   color: #26002d;
-  border: #26002d 3px solid;
   background-color: #fa2d56;
 }
-
 .link {
   text-decoration: none;
   font-size: 18px;
   color: #fa2d56;
 }
-
 .link:hover {
   color: #26002d;
   padding: 15px auto;
+}
+
+.red:hover {
+  background-color: #fa2d2d;
+  cursor: url("data:image/svg+xml;utf8, <svg xmlns='http://www.w3.org/2000/svg' width='32' height='32' style='font-size: 24px'><text y='20'>❤️</text></svg>"),
+    auto;
+}
+
+.split:hover {
+  background: -webkit-linear-gradient(left, red, orange, yellow, green, cyan, blue, violet);
+  background: -o-linear-gradient(left, red, orange, yellow, green, cyan, blue, violet);
+  background: -moz-linear-gradient(left, red, orange, yellow, green, cyan, blue, violet);
+  background: linear-gradient(left, red, orange, yellow, green, cyan, blue, violet);
+  cursor: url("data:image/svg+xml;utf8, <svg xmlns='http://www.w3.org/2000/svg' width='32' height='32' style='font-size: 24px'><text y='20'>🌈</text></svg>"),
+    auto;
+}
+
+.split:active {
+  background: -webkit-linear-gradient(left, red, orange, yellow, green, cyan, blue, violet);
+  background: -o-linear-gradient(left, red, orange, yellow, green, cyan, blue, violet);
+  background: -moz-linear-gradient(left, red, orange, yellow, green, cyan, blue, violet);
+  background: linear-gradient(left, red, orange, yellow, green, cyan, blue, violet);
+}
+
+.green {
+  color: #fa2d56;
+}
+input[type='range'] {
+  cursor: url("data:image/svg+xml;utf8, <svg xmlns='http://www.w3.org/2000/svg' width='32' height='32' style='font-size: 24px'><text y='20'>💚</text></svg>"),
+    auto;
 }
