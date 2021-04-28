@@ -10,8 +10,7 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background: url(../img/bg.jpg);
-  background-attachment: fixed;
+  background: url(../img/bg.jpg) center fixed;
 }
 
 .arrow {
