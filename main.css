@@ -1,0 +1,24 @@
+.main__container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.exercise {
+  margin: 10px;
+  width: 200px;
+  height: 300px;
+  border-radius: 20px;
+  border: teal 3px solid;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  transition: 0.4s ease-in all;
+}
+.exercise:hover {
+  transform: scale(1.1);
+}
+.links {
+  padding: 120px 30px;
+}
