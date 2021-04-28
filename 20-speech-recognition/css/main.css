@@ -4,9 +4,9 @@ html {
 
 body {
   background: #fabada;
-  font-family: 'helvetica neue';
   font-weight: 200;
   font-size: 20px;
+  font-family: sans-serif;
 }
 
 .words {
