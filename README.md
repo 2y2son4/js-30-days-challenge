@@ -4,8 +4,8 @@
 
 - [01](#day-01) | [02](#day-02-clock) | [03](#day-03-css-variables) | [04](#day-04-array-cardio-day-1) | [05](#day-05-flex-panels) | [06](#day-06-ajax-type-ahead) | [07](#day-07-array-cardio-day-2) |
 - [08](#day-08-fun-with-html-canvas) | [09](#day-09-console-treats-and-tricks) | [10](#day-10-checkboxes-task-list) | [11](#day-11-custom-html-video-player) | [12](#day-12-konami-code) | [13](#day-13-chiquitos-slide-in-on-scroll-images) | [14](#day-14-objects-and-arrays-cardio-copy-vs-reference) |
-- [15](#day-) | [16](#day-16-css-shadow-effect) | [17](#day-17-sort-list) | [18](#day-18-reduce-and-calculate-total-time) | ~~[19](#day-) | [20](#day-) | [21](#day-) |~~
-- ~~[22](#day-) | [23](#day-) | [24](#day-) | [25](#day-) | [26](#day-) | [27](#day-) | [28](#day-) |~~
+- [15](#day-) | [16](#day-16-css-shadow-effect) | [17](#day-17-sort-list) | [18](#day-18-reduce-and-calculate-total-time) | [19](#day-19-unreal-webcam) | [20](#day-20-speech-recognition) | [21](#day-21-geolocation) |
+- [22](#day-22-follow-along-link) ~~| [23](#day-) | [24](#day-) | [25](#day-) | [26](#day-) | [27](#day-) | [28](#day-) |~~
 - ~~[29](#day-) | [30](#day-) |~~
 
 ### [Day 01: Drum Kit](https://2y2son4.github.io/drum-kit-day01/).
@@ -394,5 +394,66 @@
 - [.split()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/split)
 - [parseFloat()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/parseFloat)
 - [.reduce()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/Reduce)
+
+[Volver al inicio](#wes-Bos-30-days-vanilla-js-challenge).
+
+### [Day 19: Unreal Webcam](https://2y2son4.github.io/photobooth-functastic/).
+
+#### **HTML**
+
+- [`<video>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/video)
+
+#### **JS**
+
+- [canvas.getContext('2d')](https://developer.mozilla.org/en-US/docs/Web/API/HTMLCanvasElement/getContext)
+- [.getUserMedia()](https://developer.mozilla.org/en-US/docs/Web/API/MediaDevices/getUserMedia)
+- [.catch()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/catch)
+- [.play()](https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/play)
+- [.toDataURL](https://developer.mozilla.org/en-US/docs/Web/API/HTMLCanvasElement/toDataURL)
+- [.createElement()](https://developer.mozilla.org/en-US/docs/Web/API/Document/createElement)
+- [.setAttribute()](https://developer.mozilla.org/en-US/docs/Web/API/Element/setAttribute)
+- [.insertBefore()](https://developer.mozilla.org/en-US/docs/Web/API/Node/insertBefore)
+- [.firstChild](https://developer.mozilla.org/en-US/docs/Web/API/Node/firstChild)
+
+  [Volver al inicio](#wes-Bos-30-days-vanilla-js-challenge).
+
+### [Day 20: Speech Recognition](https://github.com/2y2son4/js-30-days-challenge/tree/main/20-speech-recognition).
+
+#### **JS**
+
+- [SpeechRecognition()](https://developer.mozilla.org/en-US/docs/Web/API/SpeechRecognition)
+  - [.interimResults](https://developer.mozilla.org/en-US/docs/Web/API/SpeechRecognition/interimResults)
+  - [.lang](https://developer.mozilla.org/en-US/docs/Web/API/SpeechRecognition/lang)
+- [.createElement()](https://developer.mozilla.org/en-US/docs/Web/API/Document/createElement)
+- [.appendChild()](https://developer.mozilla.org/en-US/docs/Web/API/Node/appendChild)
+- [.map()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map)
+- [.join()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/join)
+- [.replace()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/replace)
+- [.textContent()](https://developer.mozilla.org/en-US/docs/Web/API/Node/textContent)
+
+[Volver al inicio](#wes-Bos-30-days-vanilla-js-challenge).
+
+### [Day 21: Geolocation](https://github.com/2y2son4/js-30-days-challenge/tree/main/21-geolocation).
+
+#### **JS**
+
+- [.geolocation.watchPosition()](https://developer.mozilla.org/en-US/docs/Web/API/Geolocation/watchPosition)
+
+[Volver al inicio](#wes-Bos-30-days-vanilla-js-challenge).
+
+### [Day 22: Follow along links](https://github.com/2y2son4/js-30-days-challenge/tree/main/22-follow-along-links).
+
+#### **JS**
+
+- [getBoundingClientRect()](https://developer.mozilla.org/en-US/docs/Web/API/Element/getBoundingClientRect)
+
+<p>
+<details>
+<summary style="color:crimson">Click here to check the <strong>layout</strong>.</summary>
+<p align="left">
+<img src="./assets/22.gif">
+</p>
+</details>
+</p>
 
 [Volver al inicio](#wes-Bos-30-days-vanilla-js-challenge).
