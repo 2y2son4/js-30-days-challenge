@@ -15,8 +15,10 @@ body {
   font-family: sans-serif;
   background-color: #fabada;
   display: flex;
-  min-height: 100vh;
+  flex-direction: column;
   align-items: center;
+  justify-content: center;
+  min-height: 100vh;
 
   background-image: radial-gradient(
       circle at 100% 150%,
@@ -122,6 +124,7 @@ h1 {
   font-weight: 100;
   font-family: 'Pacifico', sans-serif;
   text-shadow: 3px 3px 0 #ff88c4;
+  color: #493e00;
 }
 
 .voiceinator input,
@@ -140,6 +143,7 @@ h1 {
 
 textarea {
   height: 20rem;
+  font-family: sans-serif;
 }
 
 input[type='select'] {
@@ -157,6 +161,8 @@ input[type='select'] {
   border-bottom: 5px solid #ff88c4;
   cursor: pointer;
   position: relative;
+  color: #493e00;
+  border-radius: 10px;
 }
 
 .voiceinator button:active {
@@ -165,4 +171,45 @@ input[type='select'] {
 
 .voiceinator button:nth-of-type(1) {
   margin-right: 2%;
+}
+
+.social-btn {
+  width: 80%;
+  margin-top: 50px;
+  margin: 100px auto 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+.btn {
+  font-weight: bold;
+  letter-spacing: 2px;
+  cursor: pointer;
+  color: #fabada;
+  width: auto;
+  padding: 10px 15px;
+  border-radius: 10px;
+  border: #fabada 3px solid;
+  background-color: #493e00;
+  transition: all 0.4s ease;
+  font-size: 18px;
+  align-self: center;
+  margin: 10px;
+}
+
+.btn:hover {
+  color: #493e00;
+  border: #493e00 3px solid;
+  background-color: #fabada;
+}
+
+.link {
+  text-decoration: none;
+  font-size: 18px;
+  color: #fabada;
+}
+
+.link:hover {
+  color: #493e00;
+  padding: 15px auto;
 }
