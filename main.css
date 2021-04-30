@@ -1,7 +1,15 @@
+.header,
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .main__container {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
+  align-items: center;
+  max-width: 1200px;
 }
 
 .exercise {
@@ -16,8 +24,11 @@
   align-items: center;
   transition: 0.4s ease-in all;
 }
-.exercise:hover {
-  transform: scale(1.1);
+.exercise:nth-child(even):hover {
+  transform: rotate(-5deg);
+}
+.exercise:nth-child(odd):hover {
+  transform: rotate(5deg);
 }
 .links {
   padding: 120px 30px;
