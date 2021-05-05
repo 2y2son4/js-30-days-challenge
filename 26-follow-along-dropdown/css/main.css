@@ -1,6 +1,6 @@
 html {
   box-sizing: border-box;
-  font-family: 'Arial Rounded MT Bold', 'Helvetica Rounded', Arial, sans-serif;
+  font-family: 'Playfair Display', sans-serif;
 }
 
 *,
@@ -13,6 +13,13 @@ body {
   margin: 0;
   min-height: 100vh;
   background: #fabada;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title {
+  color: #ee2a7b;
 }
 
 h2 {
@@ -26,10 +33,11 @@ nav {
 }
 
 .cool > li > a {
-  color: yellow;
+  color: #ee2a7b;
   text-decoration: none;
   font-size: 20px;
-  background: rgba(0, 0, 0, 0.2);
+  font-weight: bold;
+  background: rgba(143, 21, 88, 0.2);
   padding: 10px 20px;
   display: inline-block;
   margin: 20px;
@@ -75,7 +83,7 @@ nav ul {
   width: 100px;
   height: 100px;
   position: absolute;
-  background: #fff;
+  background: #ee2a7b;
   border-radius: 4px;
   box-shadow: 0 50px 100px rgba(50, 50, 93, 0.1), 0 15px 35px rgba(50, 50, 93, 0.15), 0 5px 15px rgba(0, 0, 0, 0.1);
   transition: all 0.3s, opacity 0.1s, transform 0.2s;
@@ -94,12 +102,12 @@ nav ul {
   width: 20px;
   height: 20px;
   display: block;
-  background: white;
+  background: #ee2a7b;
   transform: translateY(-50%) rotate(45deg);
 }
 
 .bio {
-  min-width: 500px;
+  min-width: 600px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -138,9 +146,14 @@ a.button {
 .button[href*='twitter'] {
   background: #019fe9;
 }
-.button[href*='facebook'] {
-  background: #3b5998;
+.button[href*='behance'] {
+  background: #1769ff;
 }
-.button[href*='courses'] {
-  background: #ffc600;
+.button[href*='github'] {
+  background: #333;
+}
+
+.logo2 {
+  width: 200px;
+  padding: 60px 20px;
 }
