@@ -146,7 +146,6 @@ a.button {
   margin-bottom: 10px;
 }
 
-/* Matches Twitter, TWITTER, twitter, tWitter, TWiTTeR... */
 .button[href*='twitter'] {
   background: #019fe9;
 }
