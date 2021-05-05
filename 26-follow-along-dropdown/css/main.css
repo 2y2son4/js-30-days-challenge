@@ -119,11 +119,11 @@ nav ul {
   margin-right: 20px;
 }
 
-.courses {
+.skills {
   min-width: 300px;
 }
 
-.courses li {
+.skills li {
   padding: 10px 0;
   display: block;
   border-bottom: 1px solid rgba(0, 0, 0, 0.2);
@@ -132,6 +132,10 @@ nav ul {
 .dropdown a {
   text-decoration: none;
   color: #ffc600;
+}
+
+.dropdown a:hover {
+  color: #11702e;
 }
 
 a.button {
@@ -151,6 +155,9 @@ a.button {
 }
 .button[href*='github'] {
   background: #333;
+}
+.button[href*='github.io'] {
+  background: #fabada;
 }
 
 .logo2 {
