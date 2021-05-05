@@ -24,7 +24,7 @@ body {
   text-align: justify;
   box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.05);
   transform: scale(0.98);
-  transition: transform 0.5s;
+  transition: all 0.4s linear;
 }
 
 body.fixed-nav .site-wrap {
@@ -51,7 +51,7 @@ nav {
   background: black;
   top: 0;
   width: 100%;
-  transition: all 0.5s;
+  transition: all 0.4s linear;
   position: relative;
   z-index: 1;
 }
@@ -80,7 +80,7 @@ li.logo {
   max-width: 0;
   overflow: hidden;
   background: white;
-  transition: all 0.5s;
+  transition: all 0.4s linear;
   font-weight: 600;
   font-size: 30px;
 }
@@ -98,6 +98,6 @@ nav a {
   padding: 20px;
   display: inline-block;
   color: white;
-  transition: all 0.2s;
+  transition: all 0.4s linear;
   text-transform: uppercase;
 }
