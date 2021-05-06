@@ -1,35 +1,50 @@
+* {
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+body {
+  background-color: #fabada;
+}
 .header,
 .main {
   display: flex;
   justify-content: center;
   align-items: center;
 }
+.header__title {
+  font-size: 50px;
+  color: #ee2a7b;
+}
 .main__container {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;
-  max-width: 1200px;
+  max-width: 1024px;
 }
 
 .exercise {
   margin: 10px;
-  width: 200px;
-  height: 300px;
+  width: 180px;
+  height: 180px;
   border-radius: 20px;
-  border: teal 3px solid;
+  border: #ee2a7b 5px solid;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  transition: 0.4s ease-in all;
+  transition: 0.3s ease-in all;
 }
 .exercise:nth-child(even):hover {
-  transform: rotate(-5deg);
+  transform: rotate(-10deg);
 }
 .exercise:nth-child(odd):hover {
-  transform: rotate(5deg);
+  transform: rotate(10deg);
 }
+
 .links {
-  padding: 120px 30px;
+  color: #ee2a7b;
+  text-decoration: none;
+  font-weight: 800;
+  text-align: center;
 }
