@@ -1,6 +1,6 @@
 html {
   box-sizing: border-box;
-  font-family: 'Playfair Display', sans-serif;
+  font-family: 'Playfair Display', serif;
 }
 
 *,
@@ -12,14 +12,24 @@ html {
 body {
   margin: 0;
   min-height: 100vh;
-  background: #fabada;
+  background: #fabada85;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.title {
+.title,
+.subtitle {
   color: #ee2a7b;
+}
+
+.title {
+  font-size: 44px;
+  text-align: center;
+  margin-top: 100px;
+}
+.subtitle {
+  font-size: 32px;
 }
 
 h2 {
@@ -32,7 +42,7 @@ nav {
   perspective: 600px;
 }
 
-.cool > li > a {
+.bio-container > li > a {
   color: #ee2a7b;
   text-decoration: none;
   font-size: 20px;
@@ -41,7 +51,16 @@ nav {
   padding: 10px 20px;
   display: inline-block;
   margin: 20px;
-  border-radius: 5px;
+  border-radius: 10px;
+}
+
+p,
+span {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.line {
+  color: #ffc600;
 }
 
 nav ul {
@@ -52,7 +71,7 @@ nav ul {
   justify-content: center;
 }
 
-.cool > li {
+.bio-container > li {
   position: relative;
   display: flex;
   justify-content: center;
@@ -64,7 +83,7 @@ nav ul {
   overflow: hidden;
   padding: 20px;
   top: -20px;
-  border-radius: 2px;
+  border-radius: 10px;
   transition: all 0.5s linear;
   transform: translateY(100px);
   will-change: opacity;
@@ -84,7 +103,7 @@ nav ul {
   height: 100px;
   position: absolute;
   background: #ee2a7b;
-  border-radius: 4px;
+  border-radius: 10px;
   box-shadow: 0 50px 100px rgba(50, 50, 93, 0.1), 0 15px 35px rgba(50, 50, 93, 0.15), 0 5px 15px rgba(0, 0, 0, 0.1);
   transition: all 0.3s, opacity 0.1s, transform 0.2s;
   transform-origin: 50% 0;
@@ -120,7 +139,7 @@ nav ul {
 }
 
 .skills {
-  min-width: 300px;
+  min-width: 400px;
 }
 
 .skills li {
@@ -132,10 +151,12 @@ nav ul {
 .dropdown a {
   text-decoration: none;
   color: #ffc600;
+  font-weight: bold;
+  transition: all 0.2s linear;
 }
 
 .dropdown a:hover {
-  color: #11702e;
+  color: #0b1855;
 }
 
 a.button {
@@ -144,19 +165,42 @@ a.button {
   padding: 10px;
   color: white;
   margin-bottom: 10px;
+  font-size: 24px;
+  text-align: center;
+  border-radius: 10px;
 }
 
 .button[href*='twitter'] {
   background: #019fe9;
+  transition: all 0.3s linear;
+}
+.button[href*='twitter']:hover {
+  color: #019fe9;
+  background: white;
 }
 .button[href*='behance'] {
   background: #1769ff;
+  transition: all 0.3s linear;
+}
+.button[href*='behance']:hover {
+  color: #1769ff;
+  background: white;
 }
 .button[href*='github'] {
   background: #333;
+  transition: all 0.3s linear;
+}
+.button[href*='github']:hover {
+  color: #333;
+  background: white;
 }
 .button[href*='github.io'] {
-  background: #fabada;
+  background: #1db851;
+  transition: all 0.3s linear;
+}
+.button[href*='github.io']:hover {
+  color: #1db851;
+  background: white;
 }
 
 .logo2 {
