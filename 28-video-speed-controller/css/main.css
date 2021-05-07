@@ -4,7 +4,7 @@ body {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  background: #4c4c4c url('https://unsplash.it/1500/900?image=1021');
+  background: #fabada;
   background-size: cover;
   font-family: sans-serif;
 }
@@ -31,7 +31,7 @@ video {
 
 .speed-bar {
   width: 100%;
-  background: linear-gradient(-170deg, #2376ae 0%, #c16ecf 100%);
+  background: linear-gradient(-170deg, #fabada 0%, #ee2a7b 100%);
   text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.2);
   display: flex;
   align-items: center;
