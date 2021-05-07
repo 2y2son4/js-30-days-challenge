@@ -25,9 +25,11 @@ body {
 
 .exercise {
   margin: 10px;
+  padding: 5px;
   width: 180px;
   height: 180px;
   border-radius: 20px;
+  background-color: antiquewhite;
   border: #ee2a7b 5px solid;
   display: flex;
   flex-wrap: wrap;
