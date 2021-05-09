@@ -24,28 +24,24 @@ body {
 .main__container {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: space-evenly;
   align-items: center;
   max-width: 1200px;
   width: 100%;
   margin: 0 auto;
   justify-content: center;
   list-style: none;
+  padding-left: 0;
 }
 
 .exercise {
   margin: 10px;
   padding: 40px 20px 20px;
+  min-width: 200px;
   border-radius: 20px;
   background-color: antiquewhite;
   border: #ee2a7b 5px solid;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
   counter-increment: itemcounter;
-  align-items: center;
-  justify-content: center;
   position: relative;
   transition: 0.7s ease-in all;
 }
