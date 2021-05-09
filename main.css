@@ -33,7 +33,7 @@ body {
 
 .exercise {
   margin: 10px;
-  padding: 20px;
+  padding: 40px 20px 20px;
   border-radius: 20px;
   background-color: antiquewhite;
   border: #ee2a7b 5px solid;
@@ -50,9 +50,12 @@ body {
 
 .exercise::before {
   position: absolute;
-  top: 0;
-  left: 0;
+  top: 20px;
+  left: 20px;
   content: counters(itemcounter, '.', decimal-leading-zero);
+  color: #ee2a7b;
+  font-weight: 800;
+  font-size: 20px;
 }
 
 .links {
