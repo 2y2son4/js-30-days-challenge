@@ -17,16 +17,16 @@ body {
 .header__title {
   font-size: 50px;
   color: #ee2a7b;
+  margin: 50px 0;
 }
 .main__container {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;
-  max-width: 1024px;
+  max-width: 1200px;
   width: 100%;
   margin: 0 auto;
-  padding: 10vh 25px;
   justify-content: center;
   list-style: none;
 }
