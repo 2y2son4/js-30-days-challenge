@@ -5,16 +5,15 @@ html {
   background: linear-gradient(45deg, #eb9cbd 0%, #e96a9f 50%, #ee2a7b 100%);
 }
 
-*,
-*:before,
-*:after {
+* {
   box-sizing: inherit;
+  font-family: 'Inconsolata', monospace;
 }
 
 body {
   margin: 0;
   text-align: center;
-  font-family: 'Inconsolata', monospace;
+
   min-height: 100vh;
 }
 
@@ -124,4 +123,14 @@ body {
 .link:hover {
   color: #eb9cbd;
   padding: 15px auto;
+}
+
+input {
+  background-color: #eb9cbd;
+  font-size: 18px;
+  font-weight: bolder;
+  color: #ee2a7b;
+}
+input::placeholder {
+  color: #ee2a7b;
 }
