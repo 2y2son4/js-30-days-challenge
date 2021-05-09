@@ -1,7 +1,9 @@
+* {
+  font-family: sans-serif;
+}
 *,
 *::after,
 *::before {
-  font-family: sans-serif;
   box-sizing: border-box;
 }
 
@@ -48,7 +50,7 @@ body {
   transition: 0.7s ease-in all;
 }
 .exercise:hover {
-  background-color: #fcff5b;
+  background-color: antiquewhite;
 }
 
 .exercise::before {
@@ -128,4 +130,43 @@ body {
 
 .link--leda:hover span {
   transform: translate3d(-150%, 0, 0);
+}
+
+.btn {
+  font-weight: bold;
+  letter-spacing: 2px;
+  cursor: pointer;
+  color: #ee2a7b;
+  width: auto;
+  padding: 10px 15px;
+  border-radius: 10px;
+  border: #ee2a7b 3px solid;
+  background-color: antiquewhite;
+  transition: all 0.4s ease;
+  font-size: 18px;
+  align-self: center;
+  margin: 10px;
+}
+
+.btn:hover {
+  color: antiquewhite;
+  border: antiquewhite 3px solid;
+  background-color: #ee2a7b;
+}
+.social-btn {
+  width: 80%;
+  margin: 20px auto;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.link {
+  text-decoration: none;
+  font-size: 18px;
+  color: #ee2a7b;
+}
+
+.link:hover {
+  color: antiquewhite;
+  padding: 15px auto;
 }
