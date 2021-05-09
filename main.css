@@ -1,7 +1,10 @@
-* {
+*,
+*::after,
+*::before {
   font-family: sans-serif;
   box-sizing: border-box;
 }
+
 body {
   background-color: #fabada;
 }
@@ -21,6 +24,12 @@ body {
   justify-content: space-around;
   align-items: center;
   max-width: 1024px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 10vh 25px;
+  max-width: 1050px;
+  justify-content: center;
+  list-style: none;
 }
 
 .exercise {
@@ -35,18 +44,104 @@ body {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  transition: 0.3s ease-in all;
+  counter-increment: itemcounter;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  transition: 0.5s ease-in all;
 }
-.exercise:nth-child(even):hover {
-  transform: rotate(-10deg);
+
+.exercise::before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  content: counters(itemcounter, '.', decimal-leading-zero);
 }
-.exercise:nth-child(odd):hover {
-  transform: rotate(10deg);
-}
+
+/* .exercise:hover {
+  transform: scale(1.05);
+} */
 
 .links {
   color: #ee2a7b;
-  text-decoration: none;
-  font-weight: 800;
   text-align: center;
+  transition: 0.5s ease-in all;
+  padding: 10px 0 0;
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 18px;
+  position: relative;
+  white-space: nowrap;
+}
+
+.links::before,
+.links::after {
+  position: absolute;
+  width: 100%;
+  height: 1px;
+  background: currentColor;
+  top: 100%;
+  left: 0;
+  pointer-events: none;
+}
+
+.links::before {
+  content: '';
+  /* show by default */
+}
+
+/* .links::after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 2px;
+  background: #ee2a7b;
+  transition: all 0.3s ease;
+}
+
+.links:hover::after {
+  width: 100%;
+  transition: all 0.3s; 
+} */
+
+.link--leda {
+  overflow: hidden;
+  /* line-height: 2; */
+  font-weight: 700;
+}
+
+.link--leda::before {
+  height: 2px;
+  top: calc(100% - 5px);
+  transform-origin: 100% 50%;
+  transform: scale3d(0, 1, 1);
+  transition: all 0.3s cubic-bezier(0.5, 0.5, 0.3, 1);
+}
+
+.link--leda:hover::before {
+  transform-origin: 0% 50%;
+  transform: scale3d(1, 1, 1);
+}
+
+.link--leda::after {
+  content: attr(data-text);
+  top: 0;
+  background: none;
+  transform-origin: 100% 50%;
+  transform: translate3d(150%, 0, 0);
+  transition: all 0.3s cubic-bezier(0.5, 0.5, 0.3, 1);
+}
+
+.link--leda:hover::after {
+  transform: translate3d(0, 0, 0);
+}
+
+.link--leda span {
+  display: inline-block;
+  transition: all 0.3s cubic-bezier(0.5, 0.5, 0.3, 1);
+}
+
+.link--leda:hover span {
+  transform: translate3d(-150%, 0, 0);
 }
