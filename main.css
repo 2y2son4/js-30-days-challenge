@@ -47,6 +47,9 @@ body {
   position: relative;
   transition: 0.7s ease-in all;
 }
+.exercise:hover {
+  background-color: #fcff5b;
+}
 
 .exercise::before {
   position: absolute;
