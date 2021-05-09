@@ -539,18 +539,14 @@
 
 [Volver al inicio](#wes-Bos-30-days-vanilla-js-challenge).
 
-~~ ### [Day 29: ]().
+### [Day 29: ]().
 
 #### **JS**
-
-~~
 
 [Volver al inicio](#wes-Bos-30-days-vanilla-js-challenge).
 
-~~ ### [Day 30: ]().
+### [Day 30: ]().
 
 #### **JS**
-
-~~
 
 [Volver al inicio](#wes-Bos-30-days-vanilla-js-challenge).
