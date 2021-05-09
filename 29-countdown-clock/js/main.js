@@ -3,6 +3,7 @@ let countdown;
 const timerDisplay = document.querySelector('.display__time-left');
 const endTime = document.querySelector('.display__end-time');
 const buttons = document.querySelectorAll('[data-time]');
+const audio = new Audio('./assets/horn_01.mp3');
 
 function timer(seconds) {
   // clear any existing timers
@@ -31,6 +32,9 @@ function displayTimeLeft(seconds) {
   const display = `${minutes}:${remainderSeconds < 10 ? '0' : ''}${remainderSeconds}`;
   document.title = display;
   timerDisplay.textContent = display;
+  if (minutes === 0 && remainderSeconds === 0) {
+    audio.play();
+  }
 }
 
 function displayEndTime(timestamp) {
