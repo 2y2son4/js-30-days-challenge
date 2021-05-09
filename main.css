@@ -27,16 +27,13 @@ body {
   width: 100%;
   margin: 0 auto;
   padding: 10vh 25px;
-  max-width: 1050px;
   justify-content: center;
   list-style: none;
 }
 
 .exercise {
   margin: 10px;
-  padding: 5px;
-  width: 180px;
-  height: 180px;
+  padding: 20px;
   border-radius: 20px;
   background-color: antiquewhite;
   border: #ee2a7b 5px solid;
@@ -48,7 +45,7 @@ body {
   align-items: center;
   justify-content: center;
   position: relative;
-  transition: 0.5s ease-in all;
+  transition: 0.7s ease-in all;
 }
 
 .exercise::before {
@@ -65,7 +62,7 @@ body {
 .links {
   color: #ee2a7b;
   text-align: center;
-  transition: 0.5s ease-in all;
+  transition: 0.7s ease-in all;
   padding: 10px 0 0;
   display: inline-block;
   text-decoration: none;
@@ -81,7 +78,7 @@ body {
   width: 100%;
   height: 1px;
   background: currentColor;
-  top: 100%;
+  padding-top: 6px;
   left: 0;
   pointer-events: none;
 }
@@ -97,18 +94,18 @@ body {
   width: 0;
   height: 2px;
   background: #ee2a7b;
-  transition: all 0.3s ease;
+  transition: all 0.7s ease;
 }
 
 .links:hover::after {
   width: 100%;
-  transition: all 0.3s; 
+  transition: all 0.7s; 
 } */
 
 .link--leda {
   overflow: hidden;
-  /* line-height: 2; */
   font-weight: 700;
+  line-height: 2;
 }
 
 .link--leda::before {
@@ -116,7 +113,7 @@ body {
   top: calc(100% - 5px);
   transform-origin: 100% 50%;
   transform: scale3d(0, 1, 1);
-  transition: all 0.3s cubic-bezier(0.5, 0.5, 0.3, 1);
+  transition: all 0.7s cubic-bezier(0.5, 0.5, 0.3, 1);
 }
 
 .link--leda:hover::before {
@@ -130,7 +127,7 @@ body {
   background: none;
   transform-origin: 100% 50%;
   transform: translate3d(150%, 0, 0);
-  transition: all 0.3s cubic-bezier(0.5, 0.5, 0.3, 1);
+  transition: all 0.7s cubic-bezier(0.5, 0.5, 0.3, 1);
 }
 
 .link--leda:hover::after {
@@ -139,7 +136,7 @@ body {
 
 .link--leda span {
   display: inline-block;
-  transition: all 0.3s cubic-bezier(0.5, 0.5, 0.3, 1);
+  transition: all 0.7s cubic-bezier(0.5, 0.5, 0.3, 1);
 }
 
 .link--leda:hover span {
