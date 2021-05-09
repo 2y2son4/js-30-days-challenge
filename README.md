@@ -2,11 +2,11 @@
 
 ## `No frameworks, no compilers, no fuss;`
 
-- [01](#day-01) | [02](#day-02-clock) | [03](#day-03-css-variables) | [04](#day-04-array-cardio-day-1) | [05](#day-05-flex-panels) | [06](#day-06-ajax-type-ahead) | [07](#day-07-array-cardio-day-2) |
-- [08](#day-08-fun-with-html-canvas) | [09](#day-09-console-treats-and-tricks) | [10](#day-10-checkboxes-task-list) | [11](#day-11-custom-html-video-player) | [12](#day-12-konami-code) | [13](#day-13-chiquitos-slide-in-on-scroll-images) | [14](#day-14-objects-and-arrays-cardio-copy-vs-reference) |
-- [15](#day-) | [16](#day-16-css-shadow-effect) | [17](#day-17-sort-list) | [18](#day-18-reduce-and-calculate-total-time) | [19](#day-19-unreal-webcam) | [20](#day-20-speech-recognition) | [21](#day-21-geolocation) |
-- [22](#day-22-follow-along-links) | [23](#day-23-the-voicenator) | ~~[24](#day-) | [25](#day-) | [26](#day-) | [27](#day-) | [28](#day-) |~~
-- ~~[29](#day-) | [30](#day-) |~~
+- [01](#day-01) | [02](#day-02-clock) | [03](#day-03-css-variables) | [04](#day-04-array-cardio-day-1) | [05](#day-05-flex-panels) | [06](#day-06-ajax-type-ahead) |
+- [07](#day-07-array-cardio-day-2) | [08](#day-08-fun-with-html-canvas) | [09](#day-09-console-treats-and-tricks) | [10](#day-10-checkboxes-task-list) | [11](#day-11-custom-html-video-player) | [12](#day-12-konami-code) |
+- [13](#day-13-chiquitos-slide-in-on-scroll-images) | [14](#day-14-objects-and-arrays-cardio-copy-vs-reference) | [15](#day-) | [16](#day-16-css-shadow-effect) | [17](#day-17-sort-list) | [18](#day-18-reduce-and-calculate-total-time) |
+- [19](#day-19-unreal-webcam) | [20](#day-20-speech-recognition) | [21](#day-21-geolocation) | [22](#day-22-follow-along-links) | [23](#day-23-the-voicenator) | [24](#day-24-sticky-nav) |
+- [25](#day-25-capture-propagation-and-bubbling) | [26](#day-) | [27](#day-) | [28](#day-) | [29](#day-) | [30](#day-) |
 
 ### [Day 01: Drum Kit](https://2y2son4.github.io/drum-kit-day01/).
 
@@ -468,5 +468,85 @@
   - [.getVoices()](https://developer.mozilla.org/en-US/docs/Web/API/SpeechSynthesis/getVoices)
 - [.find()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/find)
 - [.bind()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/bind)
+
+[Volver al inicio](#wes-Bos-30-days-vanilla-js-challenge).
+
+### [Day 24: Sticky nav](https://github.com/2y2son4/js-30-days-challenge/tree/main/24-sticky-nav).
+
+#### **JS**
+
+- [Element.classList](https://developer.mozilla.org/en-US/docs/Web/API/Element/classList)
+  - .add()
+  - .remove()
+- [.offsetTop](https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/offsetTop)
+- [.scrollY](https://developer.mozilla.org/en-US/docs/Web/API/Window/scrollY)
+
+[Volver al inicio](#wes-Bos-30-days-vanilla-js-challenge).
+
+### [Day 25: capture, propagation and bubbling](https://github.com/2y2son4/js-30-days-challenge/tree/main/25-capture-propagation-bubbling).
+
+#### **JS**
+
+- [addEventListener](https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener)
+- [ev.stopPropagation()](https://developer.mozilla.org/en-US/docs/Web/API/Event/stopPropagation)
+
+[Volver al inicio](#wes-Bos-30-days-vanilla-js-challenge).
+
+### [Day 26: Follow along dropdown](https://github.com/2y2son4/js-30-days-challenge/tree/main/26-follow-along-dropdown).
+
+#### **JS**
+
+- [Element.classList](https://developer.mozilla.org/en-US/docs/Web/API/Element/classList)
+- [getBoundingClientRect()](https://developer.mozilla.org/en-US/docs/Web/API/Element/getBoundingClientRect)
+- [.style.setProperty()](https://developer.mozilla.org/en-US/docs/Web/API/CSSStyleDeclaration/setProperty)
+
+<p>
+<details>
+<summary style="color:crimson">Click here to check the <strong>layout</strong>.</summary>
+<p align="left">
+<img src="./assets/26.gif">
+</p>
+</details>
+</p>
+
+[Volver al inicio](#wes-Bos-30-days-vanilla-js-challenge).
+
+### [Day 27: Click and drag](https://github.com/2y2son4/js-30-days-challenge/tree/main/27-click-and-drag).
+
+#### **JS**
+
+- [.pageX](https://developer.mozilla.org/en-US/docs/Web/API/MouseEvent/pageX)
+- [.offsetLeft](https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/offsetLeft)
+- [mousedown](https://developer.mozilla.org/en-US/docs/Web/API/Element/mousedown_event)
+- [mouseleave](https://developer.mozilla.org/en-US/docs/Web/API/Element/mouseleave_event)
+- [mouseup](https://developer.mozilla.org/en-US/docs/Web/API/Element/mouseup_event)
+- [mousemove](https://developer.mozilla.org/en-US/docs/Web/API/Element/mousemove_event)
+
+<p>
+<details>
+<summary style="color:crimson">Click here to check the <strong>layout</strong>.</summary>
+<p align="left">
+<img src="./assets/27.gif">
+</p>
+</details>
+</p>
+
+[Volver al inicio](#wes-Bos-30-days-vanilla-js-challenge).
+
+### [Day 28: Video speed controller](https://github.com/2y2son4/js-30-days-challenge/tree/main/28-video-speed-controller).
+
+#### **JS**
+
+[Volver al inicio](#wes-Bos-30-days-vanilla-js-challenge).
+
+### [Day 29: ]().
+
+#### **JS**
+
+[Volver al inicio](#wes-Bos-30-days-vanilla-js-challenge).
+
+### [Day 30: ]().
+
+#### **JS**
 
 [Volver al inicio](#wes-Bos-30-days-vanilla-js-challenge).
