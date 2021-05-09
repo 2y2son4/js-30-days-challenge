@@ -15,6 +15,11 @@ body {
   margin: 0;
   text-align: center;
   font-family: 'Inconsolata', monospace;
+  min-height: 100vh;
+}
+
+.display {
+  min-height: 75vh;
 }
 
 .display__time-left {
@@ -27,7 +32,6 @@ body {
 
 .timer {
   display: flex;
-  min-height: 100vh;
   flex-direction: column;
 }
 
@@ -81,4 +85,43 @@ body {
 .display__end-time {
   font-size: 4rem;
   color: white;
+}
+
+.btn {
+  font-weight: bold;
+  letter-spacing: 2px;
+  cursor: pointer;
+  color: #ee2a7b;
+  width: auto;
+  padding: 10px 15px;
+  border-radius: 10px;
+  border: #ee2a7b 3px solid;
+  background-color: #eb9cbd;
+  transition: all 0.4s ease;
+  font-size: 18px;
+  align-self: center;
+  margin: 10px;
+}
+
+.btn:hover {
+  color: #eb9cbd;
+  border: #eb9cbd 3px solid;
+  background-color: #ee2a7b;
+}
+.social-btn {
+  width: 80%;
+  margin: 20px auto;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.link {
+  text-decoration: none;
+  font-size: 18px;
+  color: #ee2a7b;
+}
+
+.link:hover {
+  color: #eb9cbd;
+  padding: 15px auto;
 }
