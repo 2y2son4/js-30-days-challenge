@@ -1,7 +1,7 @@
 html {
   box-sizing: border-box;
   font-size: 10px;
-  background: #ffc600;
+  background: #61d889;
 }
 
 *,
@@ -15,17 +15,21 @@ body {
   margin: 0;
   font-family: 'Amatic SC', cursive;
 }
+.header {
+  display: flex;
+  flex-direction: column;
+}
 
-h1 {
+.title {
   text-align: center;
   font-size: 10rem;
   line-height: 1;
   margin-bottom: 0;
+  color: #ee2a7b;
 }
 
 .score {
   background: rgba(255, 255, 255, 0.2);
-  padding: 0 3rem;
   line-height: 1;
   border-radius: 1rem;
 }
@@ -63,6 +67,8 @@ h1 {
   top: 100%;
   width: 100%;
   height: 100%;
+  cursor: url("data:image/svg+xml;utf8, <svg xmlns='http://www.w3.org/2000/svg' width='32' height='32' style='font-size: 24px'><text y='20'>🔨</text></svg>"),
+    auto;
   transition: all 0.4s;
 }
 
@@ -70,6 +76,7 @@ h1 {
   top: 0;
 }
 
+.start,
 .btn {
   font-weight: bold;
   letter-spacing: 2px;
@@ -79,16 +86,17 @@ h1 {
   padding: 10px 15px;
   border-radius: 10px;
   border: #ee2a7b 3px solid;
-  background-color: #ffc600;
+  background-color: #61d889;
   transition: all 0.4s ease;
   font-size: 18px;
   align-self: center;
   margin: 10px;
 }
 
+.start:hover,
 .btn:hover {
-  color: #ffc600;
-  border: #ffc600 3px solid;
+  color: #61d889;
+  border: #61d889 3px solid;
   background-color: #ee2a7b;
 }
 .social-btn {
@@ -105,6 +113,17 @@ h1 {
 }
 
 .link:hover {
-  color: #ffc600;
+  color: #61d889;
   padding: 15px auto;
+}
+
+.start {
+  margin-top: 50px;
+  font-family: 'Amatic SC', cursive;
+  font-size: 24px;
+}
+
+.start:hover {
+  cursor: url("data:image/svg+xml;utf8, <svg xmlns='http://www.w3.org/2000/svg' width='32' height='32' style='font-size: 24px'><text y='20'>✨</text></svg>"),
+    auto;
 }
