@@ -69,3 +69,42 @@ h1 {
 .hole.up .mole {
   top: 0;
 }
+
+.btn {
+  font-weight: bold;
+  letter-spacing: 2px;
+  cursor: pointer;
+  color: #ee2a7b;
+  width: auto;
+  padding: 10px 15px;
+  border-radius: 10px;
+  border: #ee2a7b 3px solid;
+  background-color: #ffc600;
+  transition: all 0.4s ease;
+  font-size: 18px;
+  align-self: center;
+  margin: 10px;
+}
+
+.btn:hover {
+  color: #ffc600;
+  border: #ffc600 3px solid;
+  background-color: #ee2a7b;
+}
+.social-btn {
+  width: 80%;
+  margin: 100px auto;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.link {
+  text-decoration: none;
+  font-size: 18px;
+  color: #ee2a7b;
+}
+
+.link:hover {
+  color: #ffc600;
+  padding: 15px auto;
+}
