@@ -24,20 +24,20 @@ body {
 .main__container {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
   max-width: 1200px;
   width: 100%;
   margin: 0 auto;
-  justify-content: center;
   list-style: none;
   padding-left: 0;
 }
 
 .exercise {
-  margin: 10px;
+  margin: 8px;
   padding: 40px 20px 20px;
   min-width: 200px;
+  max-width: 300px;
   border-radius: 20px;
   background-color: antiquewhite;
   border: #ee2a7b 5px solid;
@@ -51,7 +51,7 @@ body {
 
 .exercise::before {
   position: absolute;
-  top: 20px;
+  top: 10px;
   left: 20px;
   content: counters(itemcounter, '.', decimal-leading-zero);
   color: #ee2a7b;
