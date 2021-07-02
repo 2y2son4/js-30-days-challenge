@@ -1,7 +1,7 @@
 html {
   box-sizing: border-box;
   font-size: 10px;
-  background: #61d889;
+  background: #85e0ae;
 }
 
 *,
@@ -61,7 +61,7 @@ body {
 }
 
 .mole {
-  background: url('../img/mole.svg') bottom center no-repeat;
+  background: url('../img/ale.png') bottom center no-repeat;
   background-size: 60%;
   position: absolute;
   top: 100%;
@@ -83,10 +83,10 @@ body {
   cursor: pointer;
   color: #ee2a7b;
   width: auto;
-  padding: 10px 15px;
+  padding: 12px 20px;
   border-radius: 10px;
   border: #ee2a7b 3px solid;
-  background-color: #61d889;
+  background-color: #85e0ae;
   transition: all 0.4s ease;
   font-size: 18px;
   align-self: center;
@@ -95,13 +95,14 @@ body {
 
 .start:hover,
 .btn:hover {
-  color: #61d889;
-  border: #61d889 3px solid;
+  color: #85e0ae;
+  border: #85e0ae 3px solid;
   background-color: #ee2a7b;
 }
+
 .social-btn {
   width: 80%;
-  margin: 100px auto;
+  margin: 80px auto;
   display: flex;
   justify-content: space-evenly;
 }
@@ -110,10 +111,11 @@ body {
   text-decoration: none;
   font-size: 18px;
   color: #ee2a7b;
+  padding: 12px 20px;
 }
 
 .link:hover {
-  color: #61d889;
+  color: #85e0ae;
   padding: 15px auto;
 }
 
