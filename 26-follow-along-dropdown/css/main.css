@@ -179,6 +179,7 @@ a.button {
   color: #019fe9;
   background: white;
 }
+
 .button[href*='behance'] {
   background: #1769ff;
   transition: all 0.3s linear;
@@ -187,6 +188,7 @@ a.button {
   color: #1769ff;
   background: white;
 }
+
 .button[href*='github'] {
   background: #333;
   transition: all 0.3s linear;
@@ -195,6 +197,17 @@ a.button {
   color: #333;
   background: white;
 }
+
+.button[href*='linkedin'] {
+  background: #0a66c2;
+  color: white;
+  transition: all 0.3s linear;
+}
+.button[href*='linkedin']:hover {
+  color: #0a66c2 !important;
+  background: white;
+}
+
 .button[href*='github.io'] {
   background: #1db851;
   transition: all 0.3s linear;
