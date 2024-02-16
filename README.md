@@ -6,7 +6,7 @@
 - [07](#day-07-array-cardio-day-2) | [08](#day-08-fun-with-html-canvas) | [09](#day-09-console-treats-and-tricks) | [10](#day-10-checkboxes-task-list) | [11](#day-11-custom-html-video-player) | [12](#day-12-konami-code) |
 - [13](#day-13-chiquitos-slide-in-on-scroll-images) | [14](#day-14-objects-and-arrays-cardio-copy-vs-reference) | [15](#day-) | [16](#day-16-css-shadow-effect) | [17](#day-17-sort-list) | [18](#day-18-reduce-and-calculate-total-time) |
 - [19](#day-19-unreal-webcam) | [20](#day-20-speech-recognition) | [21](#day-21-geolocation) | [22](#day-22-follow-along-links) | [23](#day-23-the-voicenator) | [24](#day-24-sticky-nav) |
-- [25](#day-25-capture-propagation-and-bubbling) | [26](#day-26-follow-along-dropdown) | [27](#day-27-click-and-drag) | [28](#day-28-video-speed-controller) ~~| [29](#day-) | [30](#day-) |~~
+- [25](#day-25-capture-propagation-and-bubbling) | [26](#day-26-follow-along-dropdown) | [27](#day-27-click-and-drag) | [28](#day-28-video-speed-controller) | [29](#day-) | [30](#day-) |
 
 ### [Day 01: Drum Kit](https://2y2son4.github.io/drum-kit-day01/).
 
@@ -539,13 +539,13 @@
 
 [Volver al inicio](#wes-Bos-30-days-vanilla-js-challenge).
 
-### [Day 29: ]().
+### [Day 29: Countdown clock](https://2y2son4.github.io/js-30-days-challenge/29-countdown-clock/index.html).
 
 #### **JS**
 
 [Volver al inicio](#wes-Bos-30-days-vanilla-js-challenge).
 
-### [Day 30: ]().
+### [Day 30: Whack-a-Ale!](https://2y2son4.github.io/js-30-days-challenge/30-whack-a-mole-game/index.html).
 
 #### **JS**
 
